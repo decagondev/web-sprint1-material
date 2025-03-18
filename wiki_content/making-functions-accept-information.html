@@ -1,0 +1,79 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Making functions accept information</title>
+<meta name="identifier" content="ga145b0bf57721936c6373bbf0f747222"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<div class=" border border-trbl" style="background-color: #00808c; color: #ffffff; padding: 2px 10px; border: 1px solid black;">
+    <h3><strong>Overview</strong></h3>
+</div>
+<div class="content-box pad-box-mini border border-rbl">
+    <h4><strong>Adding Input Values as Arguments to Functions</strong></h4>
+    <p>Functions are generally more helpful when they receive input values, better known as “arguments”. Receiving inputs allows a function to produce more relevant outputs.</p>
+    <p>First, let’s define a few concepts, as “arguments” and “parameters” are often used to refer to the same data, but are technically different:</p>
+    <ul>
+        <li>Function arguments are the real values passed to the function.</li>
+        <li>Function parameters are the names listed in the function's definition.</li>
+        <li>Parameters are initialized to the values of the arguments supplied.</li>
+    </ul>
+    <p>Here is the standard format for a function that can receive one argument:</p>
+    <pre style="background: repeat #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: 100%; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;" data-hljs-language="javascript"><code style="background: repeat rgba(0, 0, 0, 0); border: 0px #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px;"><span style="border: 0px #d73a49; color: #d73a49;"><code style="background: repeat rgba(0, 0, 0, 0); border: 0px #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px;"><span style="border: 0px #6a737d; color: #6a737d;">// the parameter variable name is placed in the parentheses of the function. This value of this variable is going to be the argument sent by the user when calling the function.</span></code><br>function</span> <span style="border: 0px #6f42c1; color: #6f42c1;">sampleFunction</span>(<span>sampleParameter</span>) { <br><code style="background: repeat rgba(0, 0, 0, 0); border: 0px #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px;"><span style="border: 0px #6a737d; color: #6a737d;">  // parameter name is used as a variable in the body of the function</span></code><br>&nbsp;&nbsp;<span style="border: 0px #d73a49; color: #d73a49;">console</span>.<span style="border: 0px #6f42c1; color: #6f42c1;">log</span>(<span style="border: 0px #032f62; color: #032f62;">'The value received as an argument is: '</span> + sampleParameter) <br>}<br><br><code style="background: repeat rgba(0, 0, 0, 0); border: 0px #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px;"><span style="border: 0px #6a737d; color: #6a737d;">// the value in the parentheses will be used as the argument for that function, and will be assigned to the parameter.</span></code><br><span style="border: 0px #6f42c1; color: #6f42c1;">sampleFunction</span>(<span style="border: 0px #032f62; color: #032f62;">"The dog ate my homework"</span>) </code></pre>
+    <p>This example demonstrates a few key points regarding arguments and parameters:</p>
+    <ul>
+        <li>The parameter name can then be used as a variable in the body of the function and <strong>only</strong> inside the function (local scope)</li>
+        <li>Like a variable, a parameter can be named almost anything and gets placed between the parentheses of the function when declared</li>
+        <li>When invoking the function, a value is placed within the parentheses, which is then passed into the function as the argument. The function can access this value by using the parameter’s name</li>
+    </ul>
+    <p>If we were to instead invoke the function with sampleFunction(“Dogs are better than Cats”), the console would then print: “The value received as an argument is: Dogs are better than Cats”</p>
+</div>
+<div class="content-box pad-box-mini border border-rbl">
+    <h4><strong>Adding Variables as Arguments to Functions</strong></h4>
+    <p><span>Functions can also receive variables that hold values as arguments, rather than just the value itself, as in:</span></p>
+    <pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"><code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"><span style="border: 0px none #d73a49; color: #d73a49;">let</span> favNum = <span style="border: 0px none #005cc5; color: #005cc5;">5</span>; <span style="border: 0px none #6a737d; color: #6a737d;">// declare variable to hold my favorite number</span><br><br><span style="border: 0px none #d73a49; color: #d73a49;">function</span> <span style="border: 0px none #6f42c1; color: #6f42c1;">myFavoriteNumber</span>(<span>num</span>) { <span style="border: 0px none #6a737d; color: #6a737d;">//write function that accepts one argument</span><br>&nbsp; <span style="border: 0px none #d73a49; color: #d73a49;">console</span>.<span style="border: 0px none #6f42c1; color: #6f42c1;">log</span>(num + <span style="border: 0px none #032f62; color: #032f62;">" is my favorite number"</span>)<br>}<br><br><span style="border: 0px none #6f42c1; color: #6f42c1;">myFavoriteNumber</span>(favNum) <span style="border: 0px none #6a737d; color: #6a737d;">// prints “5 is my favorite number”; notice how the variable favNum from above was used as the argument.</span><br></code></pre>
+</div>
+<div class="content-box pad-box-mini border border-rbl">
+    <h4><strong>Adding Multiple Arguments to Functions</strong></h4>
+    <p><span>Furthermore, functions can be configured to receive more than one argument. To create a function with two arguments we would follow the same syntax but add a comma between the parameter names:</span></p>
+    <pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"><code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"><span style="border: 0px none #d73a49; color: #d73a49;">function</span> <span style="border: 0px none #6f42c1; color: #6f42c1;">addItUp</span>(<span>num1, num2</span>) { <span style="border: 0px none #6a737d; color: #6a737d;">// adding two argument names separated by a comma</span><br>&nbsp; &nbsp;<span style="border: 0px none #d73a49; color: #d73a49;">let</span> sum = num1 + num2<br>&nbsp; &nbsp;<span style="border: 0px none #d73a49; color: #d73a49;">return</span> sum<br>}<br><br><span style="border: 0px none #d73a49; color: #d73a49;">let</span> result = <span style="border: 0px none #6f42c1; color: #6f42c1;">addItUp</span>(<span style="border: 0px none #005cc5; color: #005cc5;">3</span>, <span style="border: 0px none #005cc5; color: #005cc5;">4</span>) <span style="border: 0px none #6a737d; color: #6a737d;">// result will be set to 7</span><br></code></pre>
+    <p><span>It’s also worth noting that functions can receive arguments of different value types, such as one string and one number.</span></p>
+</div>
+<div class="enhanceable_content tabs">
+    <ul>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-1"><strong>How to Build it</strong></a></li>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-2"><strong>Practice</strong></a></li>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-3"><strong>Walkthrough</strong></a></li>
+    </ul>
+    <div id="topic-1">
+        <p>The marine research team at “Discovering Oceana” has a new project for you: to help them update the population count of various species from two habitable zones. For this, they would like for you to create a function that accepts three arguments:</p>
+        <ul>
+            <li>A species name.</li>
+            <li>The new population at “zone 1”.</li>
+            <li>The new population at “zone 2”</li>
+        </ul>
+        <p>In reality, the current population numbers for each species at each zone are on the research lab’s database. To test your function, you are using two sample population numbers stored in variables named <code>zone1Population</code> and <code>zone2Population</code> that you can update instead. We also would like to print the updated values to the console.</p>
+        <p>Here is how that would look:</p>
+        <pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"><code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;">zone1Population = <span style="border: 0px none #005cc5; color: #005cc5;">34</span> <span style="border: 0px none #6a737d; color: #6a737d;">// saving zone1 current population count</span><br>zone2Population = <span style="border: 0px none #005cc5; color: #005cc5;">15</span> <span style="border: 0px none #6a737d; color: #6a737d;">// saving zone2 current population count</span><br><br><span style="border: 0px none #d73a49; color: #d73a49;">function</span> <span style="border: 0px none #6f42c1; color: #6f42c1;">onSpeciesPopulationChange</span>(<span>species, zone1Count, zone2Count</span>) { <span style="border: 0px none #6a737d; color: #6a737d;">// writing function to accept three arguments</span><br>&nbsp; zone1Population = zone1Count <span style="border: 0px none #6a737d; color: #6a737d;">// updates value of zone1Population</span><br>&nbsp; zone2Population = zone2Count <span style="border: 0px none #6a737d; color: #6a737d;">// updates value of zone2Population</span><br>&nbsp; <span style="border: 0px none #d73a49; color: #d73a49;">console</span>.<span style="border: 0px none #6f42c1; color: #6f42c1;">log</span>(species + <span style="border: 0px none #032f62; color: #032f62;">" population - Zone1: "</span> + zone1Population + <span style="border: 0px none #032f62; color: #032f62;">", Zone2: "</span> + zone2Population)<br>}<br><br><span style="border: 0px none #6f42c1; color: #6f42c1;">onSpeciesPopulationChange</span>(<span style="border: 0px none #032f62; color: #032f62;">"Bottlenose Dolphin"</span>, <span style="border: 0px none #005cc5; color: #005cc5;">21</span>, <span style="border: 0px none #005cc5; color: #005cc5;">27</span>) <span style="border: 0px none #6a737d; color: #6a737d;">// prints "Bottlenose Dolphin population - Zone1: 21, Zone2: 27"</span><br></code></pre>
+        <p>As you might have already noticed, by allowing this function to accept different arguments, the function then becomes very versatile. Now it can handle new population counts for any species. Functions for the win!</p>
+    </div>
+    <div id="topic-2">
+        <p>We will practice adding and utilizing arguments in functions for these practice problems.</p>
+        <p>If you haven't already, download all Practice Problems for Sprint 1 <a class="inline_disabled" href="https://github.com/bloominstituteoftechnology/web-s01-practice-problems/archive/refs/heads/main.zip" target="_blank">HERE</a>. The setup instructions can be found <a class="inline_disabled" href="https://bloomtech-1.wistia.com/medias/wzc5y598ke" target="_blank">HERE</a>.</p>
+    </div>
+    <div id="topic-3">
+        <p><iframe class="wistia_embed" title="Web S1 M3 CC3 Video 1 - Making functions accept information" src="https://fast.wistia.net/embed/iframe/ovyoofx1w4?seo=false" width="640" height="360" name="wistia_embed" allow="autoplay; fullscreen" loading="lazy"></iframe></p>
+    </div>
+</div>
+<p>&nbsp;</p>
+<hr style="width: 90%; height: 2px; text-align: center; margin: 0 auto; border: none; color: #93005a; background-color: #93005a;">
+<p>&nbsp;</p>
+<div class=" border border-trbl" style="background-color: #00808c; color: #ffffff; padding: 2px 10px; border: 1px solid black;">
+    <h3><strong>Conclusion</strong></h3>
+</div>
+<div class="content-box pad-box-mini border border-tlr">
+    <p><span>In this core competency, we learned one more key feature of functions: functions can receive inputs, or “arguments.” Arguments are pre-existing information that a function can access and then modify to output something new. At this point, it is fair to say that all of the fundamentals of functions (a standard format, receiving inputs, performing actions, and returning values) have been covered. Everything to follow is merely alternatives and add-ons. And even though what is left to be covered is still essential to learn, I hope this information makes it easier to digest the big picture of how functions operate.</span></p>
+</div>
+</body>
+</html>

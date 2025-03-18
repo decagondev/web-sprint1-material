@@ -1,0 +1,1682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="g8c80aff5e4e4e147b065a1f16cc68a2e">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>WEB: S1M4 HTML &amp; CSS</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>OGhLziSuKG39Ng1jVO4NQFrO84LstWZdgSwcIkvB</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="gd53ba576aa42d82ecb537cbcfe430a18" title="CC1 LO1 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7395,6061,1633,4867</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the purpose of the DOCTYPE declaration in HTML?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7395">
+              <material>
+                <mattext texttype="text/plain">To specify the version of HTML being used.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6061">
+              <material>
+                <mattext texttype="text/plain">To add a header to the document.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1633">
+              <material>
+                <mattext texttype="text/plain">To define the layout of the document.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4867">
+              <material>
+                <mattext texttype="text/plain">To specify the type of document being used.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7395</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7395_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6061</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6061_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1633</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1633_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4867</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4867_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7395</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="7395_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct! The DOCTYPE declaration specifies the version of HTML being used, which helps the browser render the content correctly.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="6061_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The  tag is used to add a header to the document, not the DOCTYPE declaration.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="1633_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The layout of the document is typically defined using CSS, not the DOCTYPE declaration.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4867_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The  declaration is used to specify that an HTML document is being used, but the purpose is to specify the version of HTML being used.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gbedfba902ae84834634da77e322c40ac" title="CC1 LO1 - 2">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9507,4474,5021,3173</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;What are the two required tags that can be nested inside of the&amp;nbsp;&lt;code&gt;&amp;lt;html&amp;gt;&lt;/code&gt; tag?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9507">
+              <material>
+                <mattext texttype="text/html">&lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4474">
+              <material>
+                <mattext texttype="text/html">&lt;div&gt;
+&lt;div&gt;&lt;span&gt;&lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;footer&amp;gt;&lt;/code&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;footer&gt;&lt;/footer&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5021">
+              <material>
+                <mattext texttype="text/html">&lt;header&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;span&gt;&lt;code&gt;&amp;lt;header&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/header&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3173">
+              <material>
+                <mattext texttype="text/html">&lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">9507</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="9507_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4474</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4474_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">5021</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="5021_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3173</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3173_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9507</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="9507_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct! The &lt;span&gt;&lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;&lt;/span&gt; tags are the two required tags that can be nested inside of the &lt;code&gt;html&lt;/code&gt; tag.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4474_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;span&gt;&lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;footer&amp;gt;&lt;/code&gt;&amp;nbsp;&lt;/span&gt;tags&amp;nbsp; are not required to be nested inside of the &lt;code&gt;&amp;lt;html&amp;gt;&lt;/code&gt; tag.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="5021_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. While the &lt;span&gt;&lt;code&gt;&amp;lt;header&amp;gt;&lt;/code&gt;&amp;nbsp;&lt;/span&gt;tag can be used within the &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; tag, it is not one of the two required tags to be nested inside of the &lt;code&gt;&amp;lt;html&amp;gt;&lt;/code&gt; tag.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="3173_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt; tag is typically nested inside of the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; tag, not the &lt;code&gt;&amp;lt;html&amp;gt;&lt;/code&gt; tag, and is not one of the two required tags to be nested inside of the &lt;code&gt;&amp;lt;html&amp;gt;&lt;/code&gt; tag.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g8fc8b963ca0115d1eac6a19755eaa632" title="CC1 LO1 - 3">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6829,4104,135,7173</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;What is the purpose of the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; tag in HTML and what does it contain?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6829">
+              <material>
+                <mattext texttype="text/html">The &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; tag is used to provide information about the document, such as the title, styles, and scripts, and is not displayed in the actual document.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4104">
+              <material>
+                <mattext texttype="text/html">The &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; tag is used to display information in the document, such as the title or header.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="135">
+              <material>
+                <mattext texttype="text/html">The &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; tag is not used in HTML and has no purpose.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7173">
+              <material>
+                <mattext texttype="text/html">The &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; tag is used to format the document, such as setting the background color.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6829</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6829_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4104</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4104_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">135</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="135_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7173</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7173_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6829</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="6829_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct. The &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; tag contains metadata about the document, including the document title, stylesheets, and scripts.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4104_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The information contained in the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; tag is not displayed in the actual document.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="135_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; tag is a required part of an HTML document and provides important information about the document.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7173_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; tag is not used to format the document, but rather to provide information about the document.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g7835a979ec2119112c9ad8b48463f0eb" title="CC1 LO2 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5439,2762,6634,2393</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What are Semantic Elements in HTML?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5439">
+              <material>
+                <mattext texttype="text/plain">Semantic elements are HTML elements that are used to give meaning to the structure of the content they contain.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2762">
+              <material>
+                <mattext texttype="text/plain">Semantic elements are HTML elements that have no purpose or meaning.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6634">
+              <material>
+                <mattext texttype="text/plain">Semantic elements are HTML elements that are used to change the appearance of the content they contain.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2393">
+              <material>
+                <mattext texttype="text/plain">Semantic elements are HTML elements that are used to make the content they contain easier to understand.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">5439</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="5439_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2762</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2762_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6634</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6634_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2393</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2393_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5439</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="5439_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. Semantic elements provide additional meaning to the content they contain, making it easier for browsers, search engines, and assistive technologies to understand the structure of the page.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="2762_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Semantic elements provide additional meaning to the content they contain, making it easier for browsers, search engines, and assistive technologies to understand the structure of the page.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="6634_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Semantic elements provide additional meaning to the content they contain, but they do not change its appearance. The appearance of the content is controlled by CSS.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="2393_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Semantic elements provide additional meaning to the content they contain, making it easier for browsers, search engines, and assistive technologies to understand the structure of the page, but they don't necessarily make the content easier to understand for human users.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g13c36dacaa4ed8eddc259036732eb997" title="CC1 LO2 - 2">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6578,7097,889,1476</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Why are Semantic Elements important in HTML?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6578">
+              <material>
+                <mattext texttype="text/plain">Semantic elements are important in HTML because they provide additional meaning to the content they contain, making it easier for browsers, search engines, and assistive technologies to understand the structure of the page.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7097">
+              <material>
+                <mattext texttype="text/plain">Semantic elements are not important in HTML because they have no purpose or meaning.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="889">
+              <material>
+                <mattext texttype="text/plain">Semantic elements are important in HTML because they are used to change the appearance of the content they contain.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1476">
+              <material>
+                <mattext texttype="text/plain">Semantic elements are important in HTML because they make the content they contain easier to understand.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6578</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6578_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7097</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7097_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">889</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="889_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1476</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1476_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6578</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="6578_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. Semantic elements provide additional meaning to the content they contain, making it easier for browsers, search engines, and assistive technologies to understand the structure of the page, which can improve accessibility and search engine optimization.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7097_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Semantic elements provide additional meaning to the content they contain, making it easier for browsers, search engines, and assistive technologies to understand the structure of the page.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="889_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Semantic elements provide additional meaning to the content they contain, but they do not change its appearance. The appearance of the content is controlled by CSS.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="1476_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Semantic elements provide additional meaning to the content they contain, making it easier for browsers, search engines, and assistive technologies to understand the structure of the page, but they don't necessarily make the content easier to understand for human users.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g32be5392dfbd9bb22647d6197c2cd4fb" title="CC1 LO2 - 3">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4579,8773,3748,2391</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the purpose of using Semantic Elements in HTML?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4579">
+              <material>
+                <mattext texttype="text/plain">To provide visual style to the content</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8773">
+              <material>
+                <mattext texttype="text/plain">To describe the meaning of the content</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3748">
+              <material>
+                <mattext texttype="text/plain">To provide a specific layout for the content</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2391">
+              <material>
+                <mattext texttype="text/plain">To add animation to the content</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4579</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4579_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8773</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8773_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3748</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3748_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2391</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2391_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8773</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="4579_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Semantic elements do not provide visual style to the content. They are used to describe the meaning of the content.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8773_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. Semantic elements are used to describe the meaning of the content and make it easier for search engines and other web technologies to understand the structure of the content.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="3748_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Semantic elements do not provide specific layouts for the content. They are used to describe the meaning of the content.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="2391_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Semantic elements do not add animation to the content. They are used to describe the meaning of the content.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gff73b71739cb067569cd3a9ff9a5232f" title="CC1 LO3 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9478,4627,9203,2506</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Which of the following HTML code blocks correctly creates an unordered list with three items?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9478">
+              <material>
+                <mattext texttype="text/html">&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="xml"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span&gt;&amp;lt;&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;ul&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;&amp;lt;&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;Item 1&lt;span&gt;&amp;lt;/&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;&amp;lt;&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;Item 2&lt;span&gt;&amp;lt;/&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;&amp;lt;&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;Item 3&lt;span&gt;&amp;lt;/&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;lt;/&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;ul&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4627">
+              <material>
+                <mattext texttype="text/html">&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="xml"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span&gt;&amp;lt;&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;ol&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;&amp;lt;&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;Item 1&lt;span&gt;&amp;lt;/&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;&amp;lt;&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;Item 2&lt;span&gt;&amp;lt;/&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;&amp;lt;&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;Item 3&lt;span&gt;&amp;lt;/&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;lt;/&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;ol&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9203">
+              <material>
+                <mattext texttype="text/html">&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="xml"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span&gt;&amp;lt;&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;ul&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;&amp;lt;&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span&gt;&amp;lt;&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;ul&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span&gt;&amp;lt;&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;Item 1&lt;span&gt;&amp;lt;/&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span&gt;&amp;lt;&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;Item 2&lt;span&gt;&amp;lt;/&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span&gt;&amp;lt;&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;Item 3&lt;span&gt;&amp;lt;/&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span&gt;&amp;lt;/&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;ul&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;&amp;lt;/&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;lt;/&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;ul&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2506">
+              <material>
+                <mattext texttype="text/html">&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="xml"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span&gt;&amp;lt;&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;ol&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;&amp;lt;&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span&gt;&amp;lt;&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;ul&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span&gt;&amp;lt;&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;Item 1&lt;span&gt;&amp;lt;/&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span&gt;&amp;lt;&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;Item 2&lt;span&gt;&amp;lt;/&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span&gt;&amp;lt;&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;Item 3&lt;span&gt;&amp;lt;/&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span&gt;&amp;lt;/&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;ul&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;&amp;lt;/&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;lt;/&lt;span style="border: 0px none #22863a; color: #22863a;"&gt;ol&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">9478</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="9478_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4627</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4627_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">9203</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="9203_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2506</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2506_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9478</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="9478_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct. This code block correctly creates an unordered list with three items using the &lt;code&gt;&amp;lt;ul&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;li&amp;gt;&lt;/code&gt; elements.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4627_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. This code block creates an ordered list with the &lt;code&gt;&amp;lt;ol&amp;gt;&lt;/code&gt; element, which is not what was asked for.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="9203_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. This code block creates a nested unordered list with the inner &lt;code&gt;&amp;lt;ul&amp;gt;&lt;/code&gt; element, which is not valid.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="2506_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This code block creates a nested unordered list within an ordered list, which is not what was asked for.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g9b7501f5902040622412542a10d21b5b" title="CC1 LO3 - 2">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9789,5729,3455,4362</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Which of the following tags is the correct tag to use to create an unordered list in HTML?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9789">
+              <material>
+                <mattext texttype="text/html">&lt;code&gt;&amp;lt;ul&amp;gt;&lt;/code&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5729">
+              <material>
+                <mattext texttype="text/html">&lt;code&gt;&amp;lt;dl&amp;gt;&lt;/code&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3455">
+              <material>
+                <mattext texttype="text/html">&lt;code&gt;&amp;lt;ol&amp;gt;&lt;/code&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4362">
+              <material>
+                <mattext texttype="text/html">&lt;code&gt;&amp;lt;li&amp;gt;&lt;/code&gt;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">9789</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="9789_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">5729</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="5729_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3455</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3455_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4362</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4362_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9789</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="9789_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;Correct.&amp;nbsp;The &lt;code&gt;&amp;lt;ul&amp;gt;&lt;/code&gt; tag is the correct tag to use to create an unordered list in HTML.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="5729_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect.&amp;nbsp;The &lt;code&gt;&amp;lt;dl&amp;gt;&lt;/code&gt; tag is used to create a definition list in HTML, not an unordered list.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="3455_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect.The &lt;code&gt;&amp;lt;ol&amp;gt;&lt;/code&gt; tag is used to create an ordered list in HTML, not an unordered list.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4362_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect.&amp;nbsp;The &lt;code&gt;&amp;lt;li&amp;gt;&lt;/code&gt; tag is used to create a list item in an ordered or unordered list in HTML, but it is not used to create the list itself.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g09bb42dd44faa789b88e3c94b226e8d2" title="CC1 LO3 - 3">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7554,7740,3206,3770</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Which of the following tags is the correct tag to use to create a list item in HTML?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7554">
+              <material>
+                <mattext texttype="text/html">&lt;code&gt;&amp;lt;li&amp;gt;&lt;/code&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7740">
+              <material>
+                <mattext texttype="text/html">&lt;code&gt;&amp;lt;ul&amp;gt;&lt;/code&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3206">
+              <material>
+                <mattext texttype="text/html">&lt;code&gt;&amp;lt;dl&amp;gt;&lt;/code&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3770">
+              <material>
+                <mattext texttype="text/html">&lt;code&gt;&amp;lt;ol&amp;gt;&lt;/code&gt;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7554</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7554_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7740</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7740_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3206</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3206_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3770</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3770_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7554</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="7554_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct. The &lt;code&gt;&amp;lt;li&amp;gt;&lt;/code&gt; tag is used to create a list item in HTML.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7740_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;&amp;lt;ul&amp;gt;&lt;/code&gt; tag is used to create an unordered list, but not a list item.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="3206_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;&amp;lt;dl&amp;gt;&lt;/code&gt; tag is used to create a definition list, but not a list item.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="3770_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;&amp;lt;ol&amp;gt;&lt;/code&gt; tag is used to create an ordered list, but not a list item.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g337b640957a431951b226fe3f171111f" title="CC1 LO4 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3710,5031,7261,981</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the difference between the id and class attributes in HTML?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3710">
+              <material>
+                <mattext texttype="text/plain">Id attributes are used to grab one specific element while class attributes are used to grab multiple elements at once</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5031">
+              <material>
+                <mattext texttype="text/plain">Class attributes are used to grab one specific element while id attributes are used to grab multiple elements at once</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7261">
+              <material>
+                <mattext texttype="text/plain">Id and class attributes are used for the same purpose</mattext>
+              </material>
+            </response_label>
+            <response_label ident="981">
+              <material>
+                <mattext texttype="text/plain">Ids are a string of numbers that represent the location of the tag in the html and class attributes are used for similar tags</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3710</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3710_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">5031</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="5031_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7261</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7261_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">981</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="981_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3710</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="3710_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. Id attributes are unique and are used to select a single element, while class attributes can be used to select multiple elements.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="5031_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Id attributes are unique and are used to select a single element, while class attributes can be used to select multiple elements.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7261_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Id attributes are unique and are used to select a single element, while class attributes can be used to select multiple elements.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="981_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Id attributes are unique, but they don't represent the location of the tag in relation to other tags.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g9259635386618d64ef08761339ca1131" title="CC2 LO1 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3523,3415,1749,1294</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;
+&lt;div&gt;&lt;span&gt;What type of data does the &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; tag indicate to the browser?&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3523">
+              <material>
+                <mattext texttype="text/plain">Cascading Style Sheets (CSS)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3415">
+              <material>
+                <mattext texttype="text/plain">HTML</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1749">
+              <material>
+                <mattext texttype="text/plain">JavaScript</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1294">
+              <material>
+                <mattext texttype="text/plain">metadata</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3523</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3523_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3415</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3415_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1749</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1749_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1294</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1294_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3523</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="3523_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct. The &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; tag indicates to the browser that the data it contains is in the Cascading Style Sheets (CSS) format.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="3415_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; tag does not indicate that the data it contains is in HTML format.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="1749_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; tag does not indicate that the data it contains is in JavaScript format.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="1294_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; tag does not indicate that the data it contains is metadata.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g0995e6680f9a4a5d00dd214167fbd9ee" title="CC2 LO1 - 2">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5857,1555,1497,134</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is CSS used for in a webpage?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5857">
+              <material>
+                <mattext texttype="text/plain">To adjust the look of the page</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1555">
+              <material>
+                <mattext texttype="text/plain">To add structure to the page</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1497">
+              <material>
+                <mattext texttype="text/plain">To manage the metadata</mattext>
+              </material>
+            </response_label>
+            <response_label ident="134">
+              <material>
+                <mattext texttype="text/plain">To wrap the page elements</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">5857</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="5857_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1555</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1555_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1497</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1497_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">134</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="134_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5857</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="5857_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. CSS is used to adjust the look of a webpage, including the layout, colors, fonts, and other visual elements.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="1555_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. HTML is used to add structure to a webpage, not CSS.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="1497_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. CSS is not used to manage metadata in a webpage.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="134_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. CSS does not wrap page elements.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g53ea8a5dddb438416d8613881d802acd" title="CC2 LO1 - 3">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8456,5561,8720,3273</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;What is the purpose of the &lt;code&gt;style&lt;/code&gt; tag?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8456">
+              <material>
+                <mattext texttype="text/plain">To apply styling to the webpage</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5561">
+              <material>
+                <mattext texttype="text/plain">To wrap the page elements</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8720">
+              <material>
+                <mattext texttype="text/plain">To manage the metadata</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3273">
+              <material>
+                <mattext texttype="text/plain">To add structure to the page</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8456</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8456_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">5561</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="5561_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8720</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8720_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3273</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3273_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8456</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="8456_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct. The purpose of the &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; tag in HTML is to apply styling to a webpage, using CSS.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="5561_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; tag does not wrap page elements.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8720_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; tag is not used to manage metadata in a webpage.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="3273_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; tag does not add structure to a webpage. HTML is used for that purpose.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g7d5f4ec996cbd445fa7e32c4dcb9a133" title="CC2 LO2 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3150,6768,8431,2834</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What does the script tag do in an HTML document?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3150">
+              <material>
+                <mattext texttype="text/html">It indicates to the browser to interpret what goes between the script's opening and closing tag as JavaScript</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6768">
+              <material>
+                <mattext texttype="text/html">It indicates to the browser to interpret what goes between the script's opening and closing tag as styling rules</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8431">
+              <material>
+                <mattext texttype="text/html">It indicates to the browser to interpret what goes between the script's opening and closing tag as metadata</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2834">
+              <material>
+                <mattext texttype="text/html">It indicates to the browser to ignore what goes between the script's opening and closing tag as code.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3150</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3150_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6768</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6768_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8431</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8431_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2834</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2834_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3150</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="3150_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct. The &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; tag is used to indicate to the browser that the content between the opening and closing tag should be interpreted as JavaScript code.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="6768_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; tag is used to indicate to the browser that the content between the opening and closing tag should be interpreted as CSS styling rules.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8431_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;&amp;lt;meta&amp;gt;&lt;/code&gt; tag is used to provide metadata about the document, but not indicate that the content between a set of tags should be interpreted as metadata.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="2834_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; tag does not indicate to the browser to ignore what goes between the opening and closing tag. Rather, it indicates to the browser to interpret the content as JavaScript code.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gce769226fe636cd7f0d719201aba236f" title="CC2 LO2 - 2">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5309,446,4022,3227</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;In which section(s) of an HTML document can the &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; tag be included?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5309">
+              <material>
+                <mattext texttype="text/plain">Only in the head section</mattext>
+              </material>
+            </response_label>
+            <response_label ident="446">
+              <material>
+                <mattext texttype="text/plain">Only in the body section</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4022">
+              <material>
+                <mattext texttype="text/plain">Outside of the HTML document</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3227">
+              <material>
+                <mattext texttype="text/plain">In either the head section or the body section</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">5309</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="5309_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">446</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="446_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4022</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4022_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3227</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3227_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3227</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="5309_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; tag is typically included in the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; section of an HTML document, but it can also exist in the &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;&amp;nbsp;section.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="446_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; tag can be included in the &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; section of an HTML document, but it can also be included in the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; section.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4022_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; tag should be included within the HTML document, either in the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; or &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; section.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="3227_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;span&gt;Correct. The&amp;nbsp;&lt;/span&gt;&lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt;&lt;span&gt;&amp;nbsp;tag can be included in the&lt;code&gt; &amp;lt;head&amp;gt;&lt;/code&gt; or &lt;/span&gt;&lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;&lt;span&gt;&amp;nbsp;section of an HTML document, although it is typically included in the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;section.&lt;/span&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+  </objectbank>
+</questestinterop>

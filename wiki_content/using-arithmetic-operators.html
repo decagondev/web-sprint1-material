@@ -1,0 +1,76 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Using arithmetic operators</title>
+<meta name="identifier" content="g6e80ba637cf4cbcf56d53aa713859c78"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<div class=" border border-trbl" style="background-color: #00808c; color: #ffffff; padding: 2px 10px; border: 1px solid black;">
+    <h3><strong>Overview</strong></h3>
+</div>
+<div class="content-box pad-box-mini border border-rbl">
+    <p>Most web applications do not require heavy math skills, but basic arithmetic is almost always needed. Most of the logic and symbols used for mathematical expressions in Javascript is the same as you expect to see on paper.</p>
+    <p>Here are some commonly used arithmetic operations:</p>
+    <table style="border-collapse: collapse; width: 97.981651%;" border="1">
+        <caption>Arithmetic Operations Chart</caption>
+        <tbody>
+            <tr>
+                <th style="width: 14.273174%;" scope="row"><strong>Operation:</strong></th>
+                <td style="width: 14.273174%; text-align: center;"><strong><img class="equation_image" title="+" src="https://bloomtech.instructure.com/equation_images/%252B?scale=1" alt="LaTeX: +" data-equation-content="+" data-ignore-a11y-check="" loading="lazy"></strong></td>
+                <td style="width: 14.273174%; text-align: center;"><strong><img class="equation_image" title="-" src="https://bloomtech.instructure.com/equation_images/-?scale=1" alt="LaTeX: -" data-equation-content="-" data-ignore-a11y-check="" loading="lazy"></strong></td>
+                <td style="width: 14.273174%; text-align: center;"><strong><img class="equation_image" title="\ast" src="https://bloomtech.instructure.com/equation_images/%255Cast?scale=1" alt="LaTeX: \ast" data-equation-content="\ast" data-ignore-a11y-check="" loading="lazy"></strong></td>
+                <td style="width: 14.273174%; text-align: center;"><strong><img class="equation_image" title="/" src="https://bloomtech.instructure.com/equation_images/%252F?scale=1" alt="LaTeX: /" data-equation-content="/" data-ignore-a11y-check="" loading="lazy"></strong></td>
+                <td style="width: 14.273174%; text-align: center;"><strong><img class="equation_image" title="\ast\ast" src="https://bloomtech.instructure.com/equation_images/%255Cast%255Cast?scale=1" alt="LaTeX: \ast\ast" data-equation-content="\ast\ast" data-ignore-a11y-check="" loading="lazy"></strong></td>
+                <td style="width: 14.273174%; text-align: center;"><strong>%</strong></td>
+            </tr>
+            <tr>
+                <th style="width: 14.273174%;" scope="row"><strong>Description:</strong></th>
+                <td style="width: 14.273174%; text-align: center;">Addition</td>
+                <td style="width: 14.273174%; text-align: center;">Subtraction</td>
+                <td style="width: 14.273174%; text-align: center;">Multiplication</td>
+                <td style="width: 14.273174%; text-align: center;">Division</td>
+                <td style="width: 14.273174%; text-align: center;">Exponentiation</td>
+                <td style="width: 14.273174%; text-align: center;">Remainder</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>And here are some examples of how these arithmetic operations might be employed:</p>
+    <pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"><code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"><br><span style="border: 0px none #005cc5; color: #005cc5;">2</span> + <span style="border: 0px none #005cc5; color: #005cc5;">3</span> <span style="border: 0px none #6a737d; color: #6a737d;">// expression that evaluates to number 5.</span><br><span style="border: 0px none #005cc5; color: #005cc5;">1</span> + <span style="border: 0px none #005cc5; color: #005cc5;">2</span> + <span style="border: 0px none #005cc5; color: #005cc5;">3</span> <span style="border: 0px none #6a737d; color: #6a737d;">// another longer expression evaluating to number 6</span><br><span style="border: 0px none #005cc5; color: #005cc5;">5</span> - <span style="border: 0px none #005cc5; color: #005cc5;">6.5</span> <span style="border: 0px none #6a737d; color: #6a737d;">// this expression evaluates to number -1.5 (minus one point five)</span><br><br><span style="border: 0px none #005cc5; color: #005cc5;">2</span> * <span style="border: 0px none #005cc5; color: #005cc5;">3</span> <span style="border: 0px none #6a737d; color: #6a737d;">// using the multiplication operator, this expression evaluates to number 6</span><br><span style="border: 0px none #005cc5; color: #005cc5;">10</span> / <span style="border: 0px none #005cc5; color: #005cc5;">2</span> <span style="border: 0px none #6a737d; color: #6a737d;">// evaluates to number 5</span><br><span style="border: 0px none #005cc5; color: #005cc5;">10</span> / <span style="border: 0px none #005cc5; color: #005cc5;">3</span> <span style="border: 0px none #6a737d; color: #6a737d;">// evaluates to number 3.3333333333333335</span><br><br><span style="border: 0px none #005cc5; color: #005cc5;">3</span>**<span style="border: 0px none #005cc5; color: #005cc5;">3</span> <span style="border: 0px none #6a737d; color: #6a737d;">// evaluates to 27.&nbsp;&nbsp;The double asterisk, “**”, is the exponential operator.&nbsp;&nbsp;3 * 3 * 3 = 27 </span><br><span style="border: 0px none #005cc5; color: #005cc5;">16</span> % <span style="border: 0px none #005cc5; color: #005cc5;">5</span> <span style="border: 0px none #6a737d; color: #6a737d;">// evaluates to 1.&nbsp;&nbsp;The ‘%’ symbol returns the remainder of the two numbers divided. 16/5 = 3, with a remainder of 1.</span></code></pre>
+    <p><span>Remember that the console in your Chrome browser runs on Javascript. If you try any of these expressions in your console, you should expect to see some answers!</span></p>
+</div>
+<div class="enhanceable_content tabs">
+    <ul>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-1"><strong>How to Build it</strong></a></li>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-2"><strong>Practice</strong></a></li>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-3"><strong>Walkthrough</strong></a></li>
+    </ul>
+    <div id="topic-1">
+        <p>Similar to what we did in the previous section, you hope to plan for some of the mathematical expressions you and your students expect to see in your web application.</p>
+        <p>A possible feature involving a mathematical expression is “club capacity”. You would like to show a capacity bar for each club that shows how full the club is of current members at a given time. Here is how that would look.</p>
+        <p>You would first need to set up an expression using a division operator:</p>
+        <pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"><code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"><span style="border: 0px none #6f42c1; color: #6f42c1;">Current</span> <span style="border: 0px none #6f42c1; color: #6f42c1;">Members</span> / <span style="border: 0px none #6f42c1; color: #6f42c1;">Total</span> <span style="border: 0px none #6f42c1; color: #6f42c1;">Capacity</span></code></pre>
+        <p>For example:</p>
+        <div class="snippet-clipboard-content notranslate position-relative overflow-auto">
+            <pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"><code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"><span style="border: 0px none #005cc5; color: #005cc5;">8</span> / <span style="border: 0px none #005cc5; color: #005cc5;">25</span> <span style="border: 0px none #6a737d; color: #6a737d;">// evaluates to 0.32</span></code></pre>
+            <p>You would then need to convert that number into a percent by using the multiplication operator, like so:</p>
+            <div class="snippet-clipboard-content notranslate position-relative overflow-auto">
+                <pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"><code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"><span style="border: 0px none #005cc5; color: #005cc5;">0.32</span> * <span style="border: 0px none #005cc5; color: #005cc5;">100</span> <span style="border: 0px none #6a737d; color: #6a737d;">// evaluates to 32</span></code></pre>
+                <p>This is the final number, added with a “%” sign that you could include next to each listed club on the website. Ideally, when a member is added or dropped, the Javascript code will re-run and a new percent would be displayed.</p>
+            </div>
+        </div>
+    </div>
+    <div id="topic-2">
+        <p>For these practice problems, we will practice using arithmetic operations in Javascript.</p>
+        <p>If you haven't already, download all Practice Problems for Sprint 1 <a class="inline_disabled" href="https://github.com/bloominstituteoftechnology/web-s01-practice-problems/archive/refs/heads/main.zip" target="_blank">HERE</a>. The setup instructions can be found <a class="inline_disabled" href="https://bloomtech-1.wistia.com/medias/wzc5y598ke" target="_blank">HERE</a>.</p>
+    </div>
+    <div id="topic-3">
+        <p><iframe class="wistia_embed" title="Web S1 M1 CC2 Video 2 - Using Arithmetic Operators" src="https://fast.wistia.net/embed/iframe/utc5x5oa8u?seo=false" width="640" height="360" name="wistia_embed" allow="autoplay; fullscreen" loading="lazy"></iframe></p>
+    </div>
+    <p>&nbsp;</p>
+    <hr style="width: 90%; height: 2px; text-align: center; margin: 0 auto; border: none; color: #93005a; background-color: #93005a;">
+    <h4 style="text-align: right; padding-top: 5px; padding-right: 5%;"><em><strong>Next: Joining strings with a "+" operator</strong></em></h4>
+</div>
+</body>
+</html>

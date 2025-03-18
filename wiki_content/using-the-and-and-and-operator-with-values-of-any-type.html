@@ -1,0 +1,50 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Using the AND (&amp;&amp;) operator with values of any type</title>
+<meta name="identifier" content="g1867dc8e89cab9ee784edcd9a3b4b4be"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<div class=" border border-trbl" style="background-color: #00808c; color: #ffffff; padding: 2px 10px; border: 1px solid black;">
+    <h3><strong>Overview</strong></h3>
+</div>
+<div class="content-box pad-box-mini border border-rbl">
+    <p><span>In JavaScript, the<strong> AND</strong> </span><code>&amp;&amp;</code><span> operator performs a logical "and" operation that tests for "falsiness" on two operands. An operand is a value on either side of an operator. Using the <strong>AND</strong> </span><code>&amp;&amp;</code><span> operator with two boolean operands means that the result of the operator will be </span><code>true</code><span> if both of the operands evaluate to </span><code>true</code><span>, and </span><code>false</code><span> otherwise.</span></p>
+    <pre style="background: repeat #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: 100%; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;" data-hljs-language="javascript"><code style="background: repeat rgba(0, 0, 0, 0); border: 0px #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px;"><span style="border: 0px #005cc5; color: #005cc5;">true</span> &amp;&amp; <span style="border: 0px #005cc5; color: #005cc5;">true</span> <span style="border: 0px #6a737d; color: #6a737d;">// evaluates to true, because both operands are true</span><br><span style="border: 0px #005cc5; color: #005cc5;">false</span> &amp;&amp; <span style="border: 0px #005cc5; color: #005cc5;">false</span> <span style="border: 0px #6a737d; color: #6a737d;">// evaluates to false, because both operands are false</span><br><span style="border: 0px #005cc5; color: #005cc5;">true</span> &amp;&amp; <span style="border: 0px #005cc5; color: #005cc5;">false</span> <span style="border: 0px #6a737d; color: #6a737d;">// evaluates to false because not all of the operands are true</span></code></pre>
+    <p>You can also use the <strong>AND</strong> <code>&amp;&amp;</code> operator with any non-boolean, truthy operands with slightly different results. Instead of producing a <code>true </code> or <code>false</code> result, the operator will produce the value of either the first falsy operand, or the last operand if they're all truthy.</p>
+    <p>Let’s take a look at the following code to see how the<strong> AND</strong> <code>&amp;&amp;</code> operator works in different scenarios:</p>
+    <pre style="background: repeat #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: 100%; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;" data-hljs-language="javascript"><code style="background: repeat rgba(0, 0, 0, 0); border: 0px #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px;"><span style="border: 0px #005cc5; color: #005cc5;">0</span> &amp;&amp; <span style="border: 0px #032f62; color: #032f62;">"will not be evaluated"</span> <span style="border: 0px #6a737d; color: #6a737d;">// evaluates to 0, because the operand to the left is falsy.</span><br><span style="border: 0px #005cc5; color: #005cc5;">1</span> &amp;&amp; <span style="border: 0px #032f62; color: #032f62;">"this is more like it"</span> <span style="border: 0px #6a737d; color: #6a737d;">// evaluates to "this is more like it", because both operands are truthy.</span><br><span style="border: 0px #032f62; color: #032f62;">"hi"</span> &amp;&amp; <span style="border: 0px #005cc5; color: #005cc5;">null</span> <span style="border: 0px #6a737d; color: #6a737d;">// evaluates to null, because the operand to the left is truth.</span></code></pre>
+    <p><span>In these examples, the AND </span><code>&amp;&amp;</code><span> operator evaluates each operand to produce a single value. Remember that </span><code>&amp;&amp;</code><span> greedily evaluates the operands to "make sure" they are all truthy, but "gives up" immediately if a falsy one is encountered. In any case, the resulting value of the expression is the *last operand that is evaluation</span></p>
+</div>
+<div class="enhanceable_content tabs">
+    <ul>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-1"><strong>How to Build it</strong></a></li>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-2"><strong>Practice</strong></a></li>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-3"><strong>Walkthrough</strong></a></li>
+    </ul>
+    <div id="topic-1">
+        <p>The check-in system should perform a final check at the end to ensure all the team has met the requirements. This is the last chance to check for errors, so we want to be thorough. To successfully check-in, a team should have the following:</p>
+        <ol>
+            <li>a team name</li>
+            <li>successfully paid</li>
+            <li>the number of runners is greater than 0 and less than 12</li>
+        </ol>
+        <p>To check all of these values, we can do the following:</p>
+        <div class="highlight highlight-source-js notranslate position-relative overflow-auto">
+            <pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"><code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"><span style="border: 0px none #d73a49; color: #d73a49;">let</span> teamName = <span style="border: 0px none #032f62; color: #032f62;">"Weekend Warriors"</span>;<br><span style="border: 0px none #d73a49; color: #d73a49;">let</span> teamHasPaid = <span style="border: 0px none #005cc5; color: #005cc5;">true</span>;<br><span style="border: 0px none #d73a49; color: #d73a49;">let</span> teamRunnerCount = <span style="border: 0px none #005cc5; color: #005cc5;">8</span>;<br><br><span style="border: 0px none #d73a49; color: #d73a49;">let</span> isTeamCheckedIn = teamName &amp;&amp; teamHasPaid &amp;&amp; (teamRunnerCount &gt; <span style="border: 0px none #005cc5; color: #005cc5;">0</span>) &amp;&amp; (teamRunnerCount &lt;= <span style="border: 0px none #005cc5; color: #005cc5;">12</span>) <span style="border: 0px none #6a737d; color: #6a737d;">// evaluates to true if all conditions are truthy</span></code></pre>
+        </div>
+        <p><span>In the example above, the data results in a successful check-in and </span><code>isTeamCheckedIn</code><span> is set to </span><code>true</code><span>. This is fine, but let’s consider how the result of this operation could have one of three values: </span><code>true</code><span>, </span><code>false</code><span>, or an empty string. If the team name is an empty string (falsy), then the operation will stop and return the empty string. If the name is not empty (truthy), then the next operand will be evaluated. The process repeats with each operand until either a falsy value is found or the last value is reached. If the logical statement gets to the last value, that is the value that is given to </span><code>isTeamCheckedIn</code><span>.</span></p>
+    </div>
+    <div id="topic-2">
+        <p>For these practice problems, we will practice using the &amp;&amp; operator to print falsy or truthy values to the console.</p>
+        <p>If you haven't already, download all Practice Problems for Sprint 1 <a class="inline_disabled" href="https://github.com/bloominstituteoftechnology/web-s01-practice-problems/archive/refs/heads/main.zip" target="_blank">HERE</a>. The setup instructions can be found <a class="inline_disabled" href="https://bloomtech-1.wistia.com/medias/wzc5y598ke" target="_blank">HERE</a>.</p>
+    </div>
+    <div id="topic-3"><iframe class="wistia_embed" title="Web S1 M2 CC2 Advanced Logic Video L01" src="https://fast.wistia.net/embed/iframe/v2zqnbody4" width="640" height="360" name="wistia_embed" allow="autoplay; fullscreen" loading="lazy"></iframe></div>
+</div>
+<p>&nbsp;</p>
+<hr style="width: 90%; height: 2px; text-align: center; margin: 0 auto; border: none; color: #93005a; background-color: #93005a;">
+<h4 style="text-align: right; padding-top: 5px; padding-right: 5%;"><em><strong>Next: Using the OR <code>||</code> operator with values of any type</strong></em></h4>
+</body>
+</html>

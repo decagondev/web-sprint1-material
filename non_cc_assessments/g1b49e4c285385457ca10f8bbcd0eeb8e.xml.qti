@@ -1,0 +1,2464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="g1b49e4c285385457ca10f8bbcd0eeb8e">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>WEB: S1M3 Functions Question Bank</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>OGhLziSuKG39Ng1jVO4NQFrO84LstWZdgSwcIkvB</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="gdb9b29280ebcf67370f8ff3e62a5f770" title="CC1 LO1 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8705,8322,6939,3245</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;What is the correct syntax for writing a function in JavaScript with no parameters?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8705">
+              <material>
+                <mattext texttype="text/html">&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;function&lt;/span&gt; &lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;greet&lt;/span&gt;() {&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;console&lt;/span&gt;.&lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;log&lt;/span&gt;(&lt;span style="border: 0px none #032f62; color: #032f62;"&gt;"Hello!"&lt;/span&gt;);&lt;br&gt;&amp;nbsp;&amp;nbsp;} &lt;/code&gt;&lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8322">
+              <material>
+                <mattext texttype="text/html">&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;function&lt;/span&gt; greet {&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;console&lt;/span&gt;.&lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;log&lt;/span&gt;(&lt;span style="border: 0px none #032f62; color: #032f62;"&gt;"Hello!"&lt;/span&gt;);&lt;br&gt;&amp;nbsp;&amp;nbsp;} &lt;/code&gt;&lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6939">
+              <material>
+                <mattext texttype="text/html">&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;greet&lt;/span&gt;() {&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;console&lt;/span&gt;.&lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;log&lt;/span&gt;(&lt;span style="border: 0px none #032f62; color: #032f62;"&gt;"Hello!"&lt;/span&gt;);&lt;br&gt;&amp;nbsp;&amp;nbsp;} &lt;/code&gt;&lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3245">
+              <material>
+                <mattext texttype="text/html">&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;function&lt;/span&gt; &lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;greet&lt;/span&gt;() { =&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;console&lt;/span&gt;.&lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;log&lt;/span&gt;(&lt;span style="border: 0px none #032f62; color: #032f62;"&gt;"Hello!"&lt;/span&gt;);&lt;br&gt;&amp;nbsp;&amp;nbsp;} &lt;/code&gt;&lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8705</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8705_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8322</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8322_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6939</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6939_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3245</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3245_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8705</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="8705_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct! This is the correct syntax for declaring a function in JavaScript with no parameters.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8322_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The parentheses are missing from the function declaration, which is required in JavaScript.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="6939_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This is not a valid syntax for declaring a function in JavaScript.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="3245_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. &lt;code&gt;=&amp;gt;&lt;/code&gt; is not used when making a function declaration.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gf0c9c19ac05f0473959b3556f36d2a78" title="CC1 LO2 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1568,8095,7935,5357</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Read the following code:&lt;/p&gt;
+&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;function&lt;/span&gt; &lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;greet&lt;/span&gt;() {&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;console&lt;/span&gt;.&lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;log&lt;/span&gt;(&lt;span style="border: 0px none #032f62; color: #032f62;"&gt;"Hello!"&lt;/span&gt;);&lt;br&gt;}&lt;br&gt;&lt;br&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;function&lt;/span&gt; &lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;goodbye&lt;/span&gt;() {&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;console&lt;/span&gt;.&lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;log&lt;/span&gt;(&lt;span style="border: 0px none #032f62; color: #032f62;"&gt;"Goodbye!"&lt;/span&gt;);&lt;br&gt;}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;How would you invoke the goodbye function?&lt;/p&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1568">
+              <material>
+                <mattext texttype="text/html">&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;goodbye&lt;/span&gt;()&lt;/code&gt;&lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8095">
+              <material>
+                <mattext texttype="text/html">&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;function&lt;/span&gt; &lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;goodbye&lt;/span&gt;()&lt;/code&gt;&lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7935">
+              <material>
+                <mattext texttype="text/html">&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="stylus"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span&gt;&lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;greet&lt;/span&gt;&lt;span&gt;()&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5357">
+              <material>
+                <mattext texttype="text/html">&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="actionscript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;function&lt;/span&gt; &lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;greet&lt;/span&gt;&lt;span&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1568</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1568_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8095</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8095_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7935</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7935_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">5357</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="5357_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1568</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="1568_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct! To invoke the &lt;code&gt;goodbye&lt;/code&gt; function, you need to write the name of the function followed by parentheses.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8095_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This is the syntax for defining a function, not for invoking it.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7935_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. This is the syntax for invoking the &lt;code&gt;greet&lt;/code&gt; function, but the question is asking about the &lt;code&gt;goodbye&lt;/code&gt; function.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="5357_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This is the syntax for defining a function, not for invoking it.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g06c7bfe3be8b189c3f3e08c0e0a7fd9d" title="CC1 LO2 - 2">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9882,4656,2634,6987</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Read the following code:&lt;/p&gt;
+&lt;pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;function&lt;/span&gt; &lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;greet&lt;/span&gt;() {&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;console&lt;/span&gt;.&lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;log&lt;/span&gt;(&lt;span style="border: 0px none #032f62; color: #032f62;"&gt;"Hello!"&lt;/span&gt;);&lt;br&gt;}&lt;br&gt;&lt;br&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;function&lt;/span&gt; &lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;goodbye&lt;/span&gt;() {&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;console&lt;/span&gt;.&lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;log&lt;/span&gt;(&lt;span style="border: 0px none #032f62; color: #032f62;"&gt;"Goodbye!"&lt;/span&gt;);&lt;br&gt;}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;How would you invoke the greet function?&lt;/p&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9882">
+              <material>
+                <mattext texttype="text/html">&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;goodbye&lt;/span&gt;()&lt;/code&gt;&lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4656">
+              <material>
+                <mattext texttype="text/html">&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;function&lt;/span&gt; &lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;goodbye&lt;/span&gt;()&lt;/code&gt;&lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2634">
+              <material>
+                <mattext texttype="text/html">&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;greet&lt;/span&gt;()&lt;/code&gt;&lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6987">
+              <material>
+                <mattext texttype="text/html">&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="actionscript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;function&lt;/span&gt; &lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;greet&lt;/span&gt;&lt;span&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">9882</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="9882_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4656</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4656_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2634</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2634_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6987</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6987_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2634</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="9882_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. This is the syntax for invoking the &lt;code&gt;goodbye&lt;/code&gt; function, but the question is asking about the &lt;code&gt;greet&lt;/code&gt; function.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4656_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This is the syntax for defining a function, not for invoking it.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="2634_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct. To invoke the &lt;code&gt;greet&lt;/code&gt; function, you need to write the name of the function followed by parentheses.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="6987_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This is the syntax for defining a function, not for invoking it.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g1f34cf68955b86237d30b24b8f5a0186" title="CC1 LO2 - 3">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2220,9573,4601,5997</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the purpose of invoking a function in JavaScript?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2220">
+              <material>
+                <mattext texttype="text/plain">To execute work</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9573">
+              <material>
+                <mattext texttype="text/plain">To create a new function</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4601">
+              <material>
+                <mattext texttype="text/plain">To package work</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5997">
+              <material>
+                <mattext texttype="text/plain">To add more code blocks</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2220</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2220_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">9573</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="9573_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4601</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4601_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">5997</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="5997_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2220</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="2220_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct! Invoking a function causes the code inside the function to be executed.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="9573_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Invoking a function does not create a new function, it simply executes the code inside the function.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4601_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Functions allow you to package work into reusable blocks, but the purpose of invoking a function is to execute the work.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="5997_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Invoking a function does not add new code blocks, it executes the code inside the function.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g6e24a91d499722521bacd191ad206b8f" title="CC1 LO3 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8569,1139,7539,5164</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the difference between a function expression and a function declaration in JavaScript?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8569">
+              <material>
+                <mattext texttype="text/plain">A function expression is stored inside a variable while a function declaration has a name</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1139">
+              <material>
+                <mattext texttype="text/plain">A function expression can only be invoked once while a function declaration can be invoked multiple times</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7539">
+              <material>
+                <mattext texttype="text/plain">A function expression can only store numbers, strings or Booleans while a function declaration can store all types of data</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5164">
+              <material>
+                <mattext texttype="text/plain">Declarations have privacy issues</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8569</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8569_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1139</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1139_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7539</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7539_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">5164</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="5164_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8569</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="8569_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct! This is the key difference between a function expression and a function declaration in JavaScript.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="1139_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. There is no such restriction on how many times a function expression can be invoked.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7539_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. A function expression can store any type of data just like a function declaration.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="5164_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. No privacy issues here!</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gc602aa3b2334712013264d9614bbb9c3" title="CC1 LO3 - 2">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1851,6007,645,3885</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;How do you declare a function expression in JavaScript?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1851">
+              <material>
+                <mattext texttype="text/html">by using the keyword "function" followed by the function name</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6007">
+              <material>
+                <mattext texttype="text/html">by using the keyword "const" and assigning an anonymous function to a variable</mattext>
+              </material>
+            </response_label>
+            <response_label ident="645">
+              <material>
+                <mattext texttype="text/html">by using the keyword "var" and assigning an anonymous function to a variable</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3885">
+              <material>
+                <mattext texttype="text/html">by using the keyword "bool" and assigning an anonymous function to a variable</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1851</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1851_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6007</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6007_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">645</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="645_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3885</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3885_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6007</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="1851_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This is the syntax for declaring a function declaration, not a function expression.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="6007_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct! This is the correct syntax for declaring a function expression in JavaScript.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="645_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The use of &lt;code&gt;var&lt;/code&gt; is not recommended, and the use of &lt;code&gt;const&lt;/code&gt; is preferred.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="3885_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The use of &lt;code&gt;var&lt;/code&gt; is not recommended, and the use of &lt;code&gt;const&lt;/code&gt; is preferred.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g4d4471fcf3e0f75f0fc349771fac718a" title="CC1 LO3 - 3">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>645,9392,8166,8845</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;How do you call a function expression in JavaScript?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="645">
+              <material>
+                <mattext texttype="text/plain">by using the function name and invoking it with parentheses and a semicolon</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9392">
+              <material>
+                <mattext texttype="text/plain">by using the variable name that the function expression is assigned to and invoking it with parentheses and a semicolon</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8166">
+              <material>
+                <mattext texttype="text/html">by using the keyword "function" followed by the function name and invoking it with parentheses and a semicolon</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8845">
+              <material>
+                <mattext texttype="text/html">by using the keyword "function" followed by an existing variable's name and invoking it with parentheses and a semicolon</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">645</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="645_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">9392</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="9392_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8166</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8166_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8845</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8845_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9392</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="645_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This is the syntax for calling a function declaration, not a function expression.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="9392_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct! This is the correct syntax for calling a function expression in JavaScript.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8166_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This syntax is not valid in JavaScript.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8845_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This syntax is not valid in JavaScript.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g5642d3af5f8707959a91b04f59634351" title="CC1 LO4 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3977,2912,1454,8725</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;What happens when you try to access a variable declared inside a code block from outside of that block?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3977">
+              <material>
+                <mattext texttype="text/plain">It can be accessed and modified normally</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2912">
+              <material>
+                <mattext texttype="text/plain">It will cause an error</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1454">
+              <material>
+                <mattext texttype="text/plain">It will only return the value, but not be able to modify it</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8725">
+              <material>
+                <mattext texttype="text/plain">It will return an undefined value</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3977</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3977_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2912</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2912_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1454</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1454_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8725</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8725_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2912</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="3977_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Variables declared inside a code block have block scope, and cannot be accessed from outside of the block.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="2912_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. Accessing a variable declared inside a block from outside the block will cause a error ReferenceError.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="1454_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Variables declared inside a code block have block scope, and cannot be accessed from outside the block at all, even for reading.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8725_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Variables declared inside a code block have block scope, and cannot be accessed from outside of the block</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g62dc1eb417ea6819db902f00b9032247" title="CC1 LO4 - 2">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6176,4177,9951,379</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;In the following code, what will be the value of "num" after invoking the increment function?&lt;/p&gt;
+&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;let&lt;/span&gt; num = &lt;span style="border: 0px none #005cc5; color: #005cc5;"&gt;0&lt;/span&gt;;&lt;br&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;function&lt;/span&gt; &lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;increment&lt;/span&gt;() {&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;console&lt;/span&gt;.&lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;log&lt;/span&gt;(num);&lt;br&gt;&amp;nbsp;&amp;nbsp;num++;&lt;br&gt;}&lt;br&gt;&lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;increment&lt;/span&gt;();&lt;br&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;console&lt;/span&gt;.&lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;log&lt;/span&gt;(num);&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6176">
+              <material>
+                <mattext texttype="text/plain">0</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4177">
+              <material>
+                <mattext texttype="text/plain">1</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9951">
+              <material>
+                <mattext texttype="text/plain">2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="379">
+              <material>
+                <mattext texttype="text/plain">undefined</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6176</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6176_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4177</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4177_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">9951</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="9951_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">379</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="379_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4177</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="6176_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The first call to &lt;code&gt;console.log(num)&lt;/code&gt; inside the &lt;code&gt;increment&lt;/code&gt; function will log &lt;code&gt;0&lt;/code&gt;, but &lt;code&gt;num&lt;/code&gt; will be incremented to &lt;code&gt;1&lt;/code&gt; afterwards.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4177_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct! The &lt;code&gt;increment&lt;/code&gt; function increments the value of &lt;code&gt;num&lt;/code&gt; from &lt;code&gt;0&lt;/code&gt; to &lt;code&gt;1&lt;/code&gt;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="9951_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The value of &lt;code&gt;num&lt;/code&gt; is only incremented once by the &lt;code&gt;increment&lt;/code&gt; function.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="379_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. &lt;code&gt;num&lt;/code&gt; is a variable declared and initialized with a value of &lt;code&gt;0&lt;/code&gt;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g919624daf5f4627042c80f946f538544" title="CC1 LO4 - 3">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9574,1500,3779,4500</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What happens when you try to access a variable declared outside of a code block from inside that block?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9574">
+              <material>
+                <mattext texttype="text/plain">It can be accessed and modified normally</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1500">
+              <material>
+                <mattext texttype="text/plain">It will cause an error</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3779">
+              <material>
+                <mattext texttype="text/plain">It will return an undefined value</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4500">
+              <material>
+                <mattext texttype="text/plain">It will only return the value, but not be able to modify it</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">9574</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="9574_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1500</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1500_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3779</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3779_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4500</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4500_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9574</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="9574_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct! Variables declared outside of a code block have function scope and can be accessed from within any code block within the same function.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="1500_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Variables declared outside of a code block can be accessed from within code blocks within the same function, and doing so</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="3779_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Variables declared outside a code block can be accessed from within code blocks within the same function</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4500_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Variables declared outside a code block can be accessed from inside a block.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g4b478c88516a42d760d8347e778c2b76" title="CC2 LO1 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5928,2895,9270,2801</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the result of the following code?&lt;/p&gt;
+&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;function&lt;/span&gt; &lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;add&lt;/span&gt;(&lt;span&gt;a, b&lt;/span&gt;) {&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;return&lt;/span&gt; a + b;&lt;br&gt;&amp;nbsp;&amp;nbsp;}&lt;br&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;const&lt;/span&gt; result = &lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;add&lt;/span&gt;(&lt;span style="border: 0px none #005cc5; color: #005cc5;"&gt;5&lt;/span&gt;, &lt;span style="border: 0px none #005cc5; color: #005cc5;"&gt;10&lt;/span&gt;);&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;console&lt;/span&gt;.&lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;log&lt;/span&gt;(result); &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5928">
+              <material>
+                <mattext texttype="text/plain">15</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2895">
+              <material>
+                <mattext texttype="text/plain">undefined</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9270">
+              <material>
+                <mattext texttype="text/plain">5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2801">
+              <material>
+                <mattext texttype="text/plain">10</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">5928</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="5928_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2895</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2895_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">9270</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="9270_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2801</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2801_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5928</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="5928_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct! The code defines a function &lt;code&gt;add&lt;/code&gt; that takes two arguments, &lt;code&gt;a&lt;/code&gt; and &lt;code&gt;b&lt;/code&gt;, and returns their sum. The result of the function call &lt;code&gt;add(5, 10)&lt;/code&gt; is then assigned to the &lt;code&gt;result&lt;/code&gt; variable and logged to the console, which will output 15.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="2895_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The function &lt;code&gt;add&lt;/code&gt; returns the sum of its arguments, so the result of the function call &lt;code&gt;add(5, 10)&lt;/code&gt; is 15, not undefined.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="9270_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. 5 is one of the arguments passed to the function &lt;code&gt;add&lt;/code&gt;, but it is not the result of the function call &lt;code&gt;add(5, 10)&lt;/code&gt;. The result of the function call is 15.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="2801_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. 10 is one of the arguments passed to the function &lt;code&gt;add&lt;/code&gt;, but it is not the result of the function call &lt;code&gt;add(5, 10)&lt;/code&gt;. The result of the function call is 15.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g9a48b80c68a511d6e6132ba4468bd755" title="CC2 LO1 - 2">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3799,9860,2612,4506</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What does the return keyword do in a function?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3799">
+              <material>
+                <mattext texttype="text/html">Returns a value to the function's caller</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9860">
+              <material>
+                <mattext texttype="text/plain">Logs the value to the console</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2612">
+              <material>
+                <mattext texttype="text/plain">Runs the function</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4506">
+              <material>
+                <mattext texttype="text/plain">Runs a conditional statement</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3799</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3799_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">9860</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="9860_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2612</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2612_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4506</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4506_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3799</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="3799_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct! The &lt;code&gt;return&lt;/code&gt; keyword is used to return a value from a function to its caller. When a function encounters a &lt;code&gt;return&lt;/code&gt; statement, it immediately stops executing and returns the value specified after the &lt;code&gt;return&lt;/code&gt; keyword.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="9860_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;console.log&lt;/code&gt; function is used to log values to the console, not the &lt;code&gt;return&lt;/code&gt; keyword. The &lt;code&gt;return&lt;/code&gt; keyword returns a value from a function to its caller.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="2612_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;return&lt;/code&gt; keyword is not responsible for running a function. The function is executed by calling it. The &lt;code&gt;return&lt;/code&gt; keyword is used to return a value from the function to its caller.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4506_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;return&lt;/code&gt; keyword is not used for conditional statements. It is used to return a value from a function to its caller.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g8e8a71051f8d4d2f626cbdda29e52b4c" title="CC2 LO1 - 3">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3458,2041,5475,3886</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;What happens if a function returns a value?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3458">
+              <material>
+                <mattext texttype="text/plain">The returned value can be stored in a variable</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2041">
+              <material>
+                <mattext texttype="text/plain">The returned value is not accessible outside the function</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5475">
+              <material>
+                <mattext texttype="text/plain">The returned value is always logged to the console</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3886">
+              <material>
+                <mattext texttype="text/plain">None of the listed options</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3458</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3458_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2041</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2041_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">5475</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="5475_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3886</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3886_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3458</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="3458_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct! The returned value from a function can be stored in a variable and then used outside of the function.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="2041_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. A returned value from a function is accessible outside of the function and can be stored in a variable or used in other operations.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="5475_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. A returned value from a function can be logged to the console if the code is written as such, but the function does not log values to the console automatically.&amp;nbsp;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="3886_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The returned value from a function can be stored in a variable and then used outside of the function.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g6ae5c3cbaf6933fb64e8e83df8a6d93b" title="CC2 LO2 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3927,1348,4008,8770</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the value of the variable &lt;code&gt;it&lt;/code&gt; after the following code has executed?&lt;/p&gt;
+&lt;pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;let&lt;/span&gt; hiddenFigure = &lt;span style="border: 0px none #032f62; color: #032f62;"&gt;"Katherine Johnson"&lt;/span&gt;;&lt;br&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;function&lt;/span&gt; &lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;rock&lt;/span&gt;() {&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;console&lt;/span&gt;.&lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;log&lt;/span&gt;(&lt;span style="border: 0px none #032f62; color: #032f62;"&gt;"She ensured safe space travel"&lt;/span&gt;);&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;return&lt;/span&gt; hiddenFigure + &lt;span style="border: 0px none #032f62; color: #032f62;"&gt;" ROCKS"&lt;/span&gt;;&lt;br&gt;}&lt;br&gt;&lt;br&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;let&lt;/span&gt; it = &lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;rock&lt;/span&gt;();&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3927">
+              <material>
+                <mattext texttype="text/plain">Katherine Johnson ROCKS</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1348">
+              <material>
+                <mattext texttype="text/plain">She ensured safe space travel</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4008">
+              <material>
+                <mattext texttype="text/plain">undefined</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8770">
+              <material>
+                <mattext texttype="text/plain">None of the listed options</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3927</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3927_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1348</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1348_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4008</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4008_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8770</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8770_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3927</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="3927_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct! The &lt;code&gt;rock&lt;/code&gt; function returns the string "Katherine Johnson ROCKS", which is then assigned to the variable &lt;code&gt;it&lt;/code&gt;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="1348_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. This is the text that is logged to the console by the &lt;code&gt;rock&lt;/code&gt; function, but it is not the return value.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4008_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;rock&lt;/code&gt; function returns a string value, so the variable &lt;code&gt;it&lt;/code&gt; will have a string value assigned to it.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8770_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The answer is clearly one of the options listed.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gfb5b5735cbf81b4c2b1c0dfcc253a167" title="CC3 LO1 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>691,7175,3160,2628</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the value of the variable &lt;code&gt;message1&lt;/code&gt; after the following code executes?&lt;/p&gt;
+&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;function&lt;/span&gt; &lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;greet&lt;/span&gt;(&lt;span&gt;name&lt;/span&gt;) {&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;return&lt;/span&gt; &lt;span style="border: 0px none #032f62; color: #032f62;"&gt;"Hello, "&lt;/span&gt; + name;&lt;br&gt;}&lt;br&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;const&lt;/span&gt; message1 = &lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;greet&lt;/span&gt;(&lt;span style="border: 0px none #032f62; color: #032f62;"&gt;"Brian"&lt;/span&gt;);&lt;br&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;console&lt;/span&gt;.&lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;log&lt;/span&gt;(message1);&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="691">
+              <material>
+                <mattext texttype="text/html">"Hello, Brian"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7175">
+              <material>
+                <mattext texttype="text/html">"Hello, + name"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3160">
+              <material>
+                <mattext texttype="text/html">"Hello, Brian + name"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2628">
+              <material>
+                <mattext texttype="text/html">"Hello, "</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">691</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="691_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7175</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7175_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3160</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3160_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2628</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2628_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">691</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="691_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct! The &lt;code&gt;greet&lt;/code&gt; function returns the string &lt;code&gt;"Hello, "&lt;/code&gt; concatenated with the input parameter &lt;code&gt;name&lt;/code&gt;. When &lt;code&gt;greet&lt;/code&gt; is invoked with the argument &lt;code&gt;"Brian"&lt;/code&gt;, the value of &lt;code&gt;message1&lt;/code&gt; is &lt;code&gt;"Hello, Brian"&lt;/code&gt;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7175_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;greet&lt;/code&gt; function returns the string &lt;code&gt;"Hello, "&lt;/code&gt; concatenated with the input parameter &lt;code&gt;name&lt;/code&gt;, not the string &lt;code&gt;"Hello, + name"&lt;/code&gt;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="3160_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;greet&lt;/code&gt; function returns the string &lt;code&gt;"Hello, "&lt;/code&gt; concatenated with the input parameter &lt;code&gt;name&lt;/code&gt;, not the string &lt;code&gt;"Hello, Brian + name"&lt;/code&gt;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="2628_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;greet&lt;/code&gt; function returns the string &lt;code&gt;"Hello, "&lt;/code&gt; concatenated with the input parameter &lt;code&gt;name&lt;/code&gt;, not just the string &lt;code&gt;"Hello, "&lt;/code&gt; by itself.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g6ee41f6f82d578067f6208bbde7f7022" title="CC3 LO1 - 2">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1254,4746,7676,1062</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the value of the isThreeOdd after the following code executes?&lt;/p&gt;
+&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;function&lt;/span&gt; &lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;isOdd&lt;/span&gt;(&lt;span&gt;num&lt;/span&gt;) {&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;return&lt;/span&gt; num % &lt;span style="border: 0px none #005cc5; color: #005cc5;"&gt;2&lt;/span&gt; === &lt;span style="border: 0px none #005cc5; color: #005cc5;"&gt;1&lt;/span&gt;;&lt;br&gt;}&lt;br&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;const&lt;/span&gt; isThreeOdd = &lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;isOdd&lt;/span&gt;(&lt;span style="border: 0px none #005cc5; color: #005cc5;"&gt;3&lt;/span&gt;);&lt;br&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;console&lt;/span&gt;.&lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;log&lt;/span&gt;(isThreeOdd);&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1254">
+              <material>
+                <mattext texttype="text/plain">true</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4746">
+              <material>
+                <mattext texttype="text/plain">false</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7676">
+              <material>
+                <mattext texttype="text/plain">2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1062">
+              <material>
+                <mattext texttype="text/plain">1</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1254</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1254_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4746</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4746_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7676</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7676_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1062</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1062_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1254</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="1254_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct! The result of &lt;code&gt;isOdd(3)&lt;/code&gt; is &lt;code&gt;true&lt;/code&gt;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4746_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The result of &lt;code&gt;isOdd(3)&lt;/code&gt; is &lt;code&gt;true&lt;/code&gt;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7676_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The value of &lt;code&gt;3&lt;/code&gt; is being passed as an argument to the &lt;code&gt;isOdd&lt;/code&gt; function, but the function returns &lt;code&gt;true&lt;/code&gt;, not &lt;code&gt;3&lt;/code&gt;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="1062_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The result of &lt;code&gt;isOdd(3)&lt;/code&gt; is &lt;code&gt;true&lt;/code&gt;, not &lt;code&gt;1&lt;/code&gt;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g44764f307b52a05b4018067594d55839" title="CC3 LO1 - 3">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1984,4015,7512,4129</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the value of the variable &lt;code&gt;a&lt;/code&gt; after the following code executes?&lt;/p&gt;
+&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;function&lt;/span&gt; &lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;sum&lt;/span&gt;(&lt;span&gt;num1, num2&lt;/span&gt;) {&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;const&lt;/span&gt; result = num1 + num2;&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;return&lt;/span&gt; result;&lt;br&gt;}&lt;br&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;const&lt;/span&gt; a = &lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;sum&lt;/span&gt;(&lt;span style="border: 0px none #005cc5; color: #005cc5;"&gt;1&lt;/span&gt;, &lt;span style="border: 0px none #005cc5; color: #005cc5;"&gt;2&lt;/span&gt;);&lt;br&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;console&lt;/span&gt;.&lt;span style="border: 0px none #6f42c1; color: #6f42c1;"&gt;log&lt;/span&gt;(a);&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1984">
+              <material>
+                <mattext texttype="text/plain">1</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4015">
+              <material>
+                <mattext texttype="text/plain">2</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7512">
+              <material>
+                <mattext texttype="text/plain">3</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4129">
+              <material>
+                <mattext texttype="text/plain">0</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1984</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1984_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4015</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4015_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7512</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7512_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4129</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4129_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7512</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="1984_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The result of &lt;code&gt;sum(1, 2)&lt;/code&gt; is &lt;code&gt;3&lt;/code&gt;, not &lt;code&gt;1&lt;/code&gt;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4015_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The result of &lt;code&gt;sum(1, 2)&lt;/code&gt; is &lt;code&gt;3&lt;/code&gt;, not &lt;code&gt;2&lt;/code&gt;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7512_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct! The result of &lt;code&gt;sum(1, 2)&lt;/code&gt; is &lt;code&gt;3&lt;/code&gt;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4129_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The result of &lt;code&gt;sum(1, 2)&lt;/code&gt; is &lt;code&gt;3&lt;/code&gt;, not &lt;code&gt;0&lt;/code&gt;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ge22a23d1ecacac101df64cd8e6d50a8a" title="CC4 LO1 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3397,554,825,8066</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the result of the following code?&lt;/p&gt;
+&lt;pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;let&lt;/span&gt; greet = &lt;span style="border: 0px none #032f62; color: #032f62;"&gt;"Hello"&lt;/span&gt;;&lt;br&gt;greet.&lt;span&gt;length&lt;/span&gt;;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3397">
+              <material>
+                <mattext texttype="text/plain">5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="554">
+              <material>
+                <mattext texttype="text/plain">Hello</mattext>
+              </material>
+            </response_label>
+            <response_label ident="825">
+              <material>
+                <mattext texttype="text/plain">undefined</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8066">
+              <material>
+                <mattext texttype="text/plain">null</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3397</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3397_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">554</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="554_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">825</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="825_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8066</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8066_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3397</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="3397_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct! The &lt;code&gt;.length&lt;/code&gt; property of a string returns the number of characters in the string, so &lt;code&gt;"Hello".length&lt;/code&gt; would evaluate to &lt;code&gt;5&lt;/code&gt;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="554_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;.length&lt;/code&gt; property returns the number of characters in the string, not the string itself.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="825_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;.length&lt;/code&gt; property is a valid property of a string and will return the number of characters in the string.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8066_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The &lt;code&gt;.length&lt;/code&gt; property is a valid property of a string and will return the number of characters in the string.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g3f8ad058ca38a83784737e7b6efb95fc" title="CC4 LO1 - 2">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2062,6437,8392,8484</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the result of the following code?&lt;/p&gt;
+&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;let&lt;/span&gt; city = &lt;span style="border: 0px none #032f62; color: #032f62;"&gt;"Paris"&lt;/span&gt;;&lt;br&gt;city[&lt;span style="border: 0px none #005cc5; color: #005cc5;"&gt;2&lt;/span&gt;];&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2062">
+              <material>
+                <mattext texttype="text/html">"r"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6437">
+              <material>
+                <mattext texttype="text/html">"Paris"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8392">
+              <material>
+                <mattext texttype="text/plain">undefined</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8484">
+              <material>
+                <mattext texttype="text/plain">null</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2062</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2062_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6437</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6437_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8392</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8392_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8484</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8484_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2062</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="2062_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct! The square bracket notation &lt;code&gt;[ ]&lt;/code&gt; is used to access a specific character in a string. In this case, &lt;code&gt;city[2]&lt;/code&gt; would access the third character in the string, which is &lt;code&gt;"r"&lt;/code&gt;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="6437_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The square bracket notation &lt;code&gt;[ ]&lt;/code&gt; is used to access a specific character in a string, not the entire string itself.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8392_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The square bracket notation &lt;code&gt;[ ]&lt;/code&gt; is a valid way to access a specific character in a string and will return the character at that position.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8484_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The square bracket notation &lt;code&gt;[ ]&lt;/code&gt; is a valid way to access a specific character in a string and will return the character at that position.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gee4ba130b69b2d73b6da0c04939924f3" title="CC4 LO1 - 3">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6123,5829,7604,7141</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the result of the following code?&lt;/p&gt;
+&lt;pre style="background: repeat #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: 100%; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace;           margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;" data-hljs-language="javascript"&gt;&lt;code style="background: repeat rgba(0, 0, 0, 0); border: 0px #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace;           margin: 0px; padding: 0px;"&gt;&lt;span style="border: 0px #d73a49; color: #d73a49;"&gt;let&lt;/span&gt; poem = &lt;span style="border: 0px #032f62; color: #032f62;"&gt;"I wandered lonely as a cloud"&lt;/span&gt;;&lt;br&gt;&lt;span style="border: 0px #d73a49; color: #d73a49;"&gt;let&lt;/span&gt; last = poem[poem.&lt;span&gt;length&lt;/span&gt; - &lt;span style="border: 0px #005cc5; color: #005cc5;"&gt;1&lt;/span&gt;];&lt;br&gt;&lt;span style="border: 0px #d73a49; color: #d73a49;"&gt;console&lt;/span&gt;.&lt;span style="border: 0px #6f42c1; color: #6f42c1;"&gt;log&lt;/span&gt;(last);&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6123">
+              <material>
+                <mattext texttype="text/html">"d"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5829">
+              <material>
+                <mattext texttype="text/html">"cloud"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7604">
+              <material>
+                <mattext texttype="text/html">"I wandered lonely as a cloud"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7141">
+              <material>
+                <mattext texttype="text/plain">undefined</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6123</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6123_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">5829</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="5829_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7604</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7604_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7141</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7141_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6123</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="6123_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct! The value of &lt;code&gt;poem[poem.length - 1]&lt;/code&gt; is equal to the last character in the string, which is "d".</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="5829_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The expression &lt;code&gt;poem[poem.length - 1]&lt;/code&gt; only returns the last character of the string, not the whole word.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7604_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The expression &lt;code&gt;poem[poem.length - 1]&lt;/code&gt; only returns the last character of the string, not the whole string.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7141_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The expression &lt;code&gt;poem[poem.length - 1]&lt;/code&gt; is a valid expression that returns a value, not &lt;code&gt;undefined&lt;/code&gt;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g14f9fd0e47d783a976c59112b8efc974" title="CC4 LO2 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2264,8008,34,840</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the value of the variable &lt;code&gt;message&lt;/code&gt; after this code executes?&lt;/p&gt;
+&lt;pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;let&lt;/span&gt; points = &lt;span style="border: 0px none #005cc5; color: #005cc5;"&gt;12&lt;/span&gt;;&lt;br&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;let&lt;/span&gt; name = &lt;span style="border: 0px none #032f62; color: #032f62;"&gt;"Gabe"&lt;/span&gt;;&lt;br&gt;&lt;br&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;let&lt;/span&gt; message = &lt;span style="border: 0px none #032f62; color: #032f62;"&gt;`Nice job, &lt;span style="border: 0px none #24292e; color: #24292e;"&gt;${name}&lt;/span&gt;. You scored &lt;span style="border: 0px none #24292e; color: #24292e;"&gt;${points}&lt;/span&gt; points!`&lt;/span&gt;;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2264">
+              <material>
+                <mattext texttype="text/plain">Nice job, Gabe. You scored 12 points!</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8008">
+              <material>
+                <mattext texttype="text/html">Nice job, &lt;code&gt;${name}&lt;/code&gt;. You scored &lt;code&gt;${points}&lt;/code&gt; points!</mattext>
+              </material>
+            </response_label>
+            <response_label ident="34">
+              <material>
+                <mattext texttype="text/plain">Nice job, 12. You scored Gabe points!</mattext>
+              </material>
+            </response_label>
+            <response_label ident="840">
+              <material>
+                <mattext texttype="text/plain">Nice job, Gabe. You scored points!</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2264</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2264_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8008</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8008_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">34</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="34_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">840</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="840_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2264</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="2264_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct! The template literal uses the values of &lt;code&gt;name&lt;/code&gt; and &lt;code&gt;points&lt;/code&gt; to construct the final string.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8008_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This is the syntax used to embed expressions in a template literal, not the final result.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="34_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This is not the result of the code.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="840_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This is not the result of the code.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ga3fb2a6c45135dee19cf8337946dd492" title="CC4 LO2 - 2">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1527,8174,5927,8353</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;What is the difference between a template literal and a string with single quotes? Select all that apply.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="1527">
+              <material>
+                <mattext texttype="text/plain">Template literals allow the use of variables within the string while strings with single quotes do not.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8174">
+              <material>
+                <mattext texttype="text/plain">Template literals can only be used to create multi-line strings, while single quotes cannot.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5927">
+              <material>
+                <mattext texttype="text/plain">Template literals use backticks instead of single quotes.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8353">
+              <material>
+                <mattext texttype="text/plain">Single quotes are faster to execute than template literals.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1527</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1527_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8174</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8174_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">5927</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="5927_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8353</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8353_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">1527</varequal>
+              <not>
+                <varequal respident="response1">8174</varequal>
+              </not>
+              <varequal respident="response1">5927</varequal>
+              <not>
+                <varequal respident="response1">8353</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="1527_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct! Template literals can embed expressions within the string using the syntax &lt;code&gt;${expression}&lt;/code&gt;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8174_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Both single quotes and template literals can be used to create multi-line strings by concatenating separate strings.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="5927_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct! Template literals are denoted by backticks (&lt;code&gt;`&lt;/code&gt;) instead of single quotes (&lt;code&gt;'&lt;/code&gt;) or double quotes (&lt;code&gt;"&lt;/code&gt;).</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8353_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. There is no performance difference between the two types of strings.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+  </objectbank>
+</questestinterop>

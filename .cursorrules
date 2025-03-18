@@ -1,0 +1,49 @@
+# Cursor Rules for Web Unit 1 Sprint 1 Course Content Site Implementation
+
+## Follow the Plan Strictly
+- Always refer to plan.md for the implementation steps
+- Complete each step in the defined order
+- Check off items in the plan as they are completed
+- Do not skip steps or add unplanned features
+
+## File Structure and Naming
+- Create only the index.html file as specified
+- Do not create additional HTML, CSS, or JS files
+- Use inline JavaScript for the theme toggle functionality
+- Use the Tailwind CSS CDN for styling
+
+## Styling Guidelines
+- Use Tailwind CSS classes exclusively for styling
+- Follow the color scheme defined in the plan
+- Ensure dark/light theme compatibility for all elements
+- Maintain consistent spacing and typography
+
+## Content Implementation
+- Use semantic HTML elements (nav, main, section, article, etc.)
+- Structure content according to the module organization
+- Link to wiki_content files using relative paths
+- Include proper alt text for all images
+
+## Code Quality
+- Use descriptive class names when necessary (beyond Tailwind utilities)
+- Keep JavaScript minimal and focused on core functionality
+- Add comments for complex sections
+- Format code consistently with proper indentation
+
+## Accessibility
+- Include proper ARIA attributes where appropriate
+- Maintain sufficient color contrast ratios
+- Ensure keyboard navigability
+- Use semantic HTML to enhance screen reader compatibility
+
+## Performance
+- Keep custom CSS to a minimum
+- Optimize any images before inclusion
+- Avoid unnecessary JavaScript
+- Use responsive Tailwind classes instead of media queries when possible
+
+## Testing
+- Test all links before considering implementation complete
+- Verify theme toggle works as expected
+- Check responsiveness at multiple screen sizes
+- Validate HTML with W3C validator 

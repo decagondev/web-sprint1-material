@@ -1,0 +1,66 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Understanding primitive types</title>
+<meta name="identifier" content="ge8ebdec3d55ac7afd5f336dc8f2ece72"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<div class=" border border-trbl" style="background-color: #00808c; color: #ffffff; padding: 2px 10px; border: 1px solid black;">
+    <h3><strong>Overview</strong></h3>
+</div>
+<div class="content-box pad-box-mini border border-rbl">
+    <p><span>Primitive types are the most basic types of data used in Javascript, i.e. they can not be broken down into smaller parts that are still recognized by the language. The most widely used primitive types include <strong>strings, numbers, and booleans. </strong></span></p>
+    <p><span>Here are some examples and descriptions of each:</span></p>
+    <pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"><code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"><br><span style="border: 0px none #032f62; color: #032f62;">"I am a sentence"</span> <span style="border: 0px none #6a737d; color: #6a737d;">// this is a string of text, or string, delimited by double-quotes.</span><br><span style="border: 0px none #032f62; color: #032f62;">'I am also a sentence'</span> <span style="border: 0px none #6a737d; color: #6a737d;">// another string, in this case using single-quotes. In JavaScript single and double-quotes work the same, but you can not use both forms on the same string.</span><br><span style="border: 0px none #005cc5; color: #005cc5;">53</span> <span style="border: 0px none #6a737d; color: #6a737d;">// this is a number. Whole numbers are commonly called integers, but they are still of type number in JavaScript.</span><br><span style="border: 0px none #005cc5; color: #005cc5;">12.34</span> <span style="border: 0px none #6a737d; color: #6a737d;">// another number. Numbers with a decimal point are often called floating-point numbers.</span><br><span style="border: 0px none #005cc5; color: #005cc5;">true</span> <span style="border: 0px none #6a737d; color: #6a737d;">// this is a Boolean. Booleans are either true or false.</span><br><span style="border: 0px none #005cc5; color: #005cc5;">false</span> <span style="border: 0px none #6a737d; color: #6a737d;">// another Boolean.</span></code></pre>
+    <p><span>Some other primitive types represent an absence of value. These include <strong>undefined, null, and NaN. </strong></span></p>
+    <p><span>Here are some examples of these:</span></p>
+    <pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"><code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"><br><span style="border: 0px none #005cc5; color: #005cc5;">undefined</span> <span style="border: 0px none #6a737d; color: #6a737d;">// this is a special value and also a type, which signifies a complete absence of a value. If a value is not given, the system defaults to undefined.</span><br><span style="border: 0px none #005cc5; color: #005cc5;">null</span> <span style="border: 0px none #6a737d; color: #6a737d;">// another special value to signify absence. Null is used to say that the developer specifically wants this value to be absent.</span><br><span style="border: 0px none #6f42c1; color: #6f42c1;">NaN</span> <span style="border: 0px none #6a737d; color: #6a737d;">// "Not A Number", a value that represents things like zero divided by zero.</span><br></code></pre>
+</div>
+<div class="enhanceable_content tabs">
+    <ul>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-1"><strong>How to Build it</strong></a></li>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-2"><strong>Practice</strong></a></li>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-3"><strong>Walkthrough</strong></a></li>
+    </ul>
+    <div id="topic-1">
+        <h4><strong>Identifying String Values</strong></h4>
+        <p><span>Let’s return to your work on the web site that provides information on all of the active clubs at Washington Community Center. Towards the beginning of the project, you want to first teach your students about the different primitive types of values that they should expect to handle in their web application: strings, numbers, booleans, and undefined. You start with introducing strings and remind the students of an example of a string that was logged to the console earlier:</span></p>
+        <pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"><code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"><span style="border: 0px none #d73a49; color: #d73a49;">console</span>.<span style="border: 0px none #6f42c1; color: #6f42c1;">log</span>(<span style="border: 0px none #032f62; color: #032f62;">"The Improv Club meets every Tuesday and Thursday in the theater."</span>)</code></pre>
+        <p>Right now, this is a very long string, but eventually, you would like to use the pattern of this string as a template for three smaller strings: a club name, meeting dates, and meeting location. You ask your students to break down each of these into their individual string values:</p>
+        <ul>
+            <li>"The Improv Club"</li>
+            <li>"Tuesdays and Thursdays"</li>
+            <li>"Theater"</li>
+        </ul>
+        <h4><strong>Identifying Number Values</strong></h4>
+        <p>Next, you want to draw attention to some of the number values they would expect to see in this project. Here are a few that come to mind:</p>
+        <ul>
+            <li>Number of students currently enrolled in each club</li>
+            <li>Maximum number of students allowed in each club</li>
+            <li>Time the club starts</li>
+        </ul>
+        <p>This last one is tricky because it involves time. If you typed a time, say 3:10 in the console, you would get a syntax error because Javascript doesn’t recognize this format (number, colon, number). If you typed “3:10” with quotes, Javascript would treat it as a string. This could work, but it might be more difficult to later code for an option for your students to search a club by “time met”. Lastly, you could treat time as a number, as in how many milliseconds have passed since a universally recognized start time. This may seem complicated, but this is actually quite a popular way to track time as a number, rather than a string. We will introduce this concept much later in the course, but we’ll treat time as a string for our purposes today.</p>
+        <h4><strong>Identifying Boolean Values</strong></h4>
+        <p>Next, you would like to consider any booleans needed for this web application. Here are few that come to mind:</p>
+        <ul>
+            <li>Is a user logged in? If so, then maybe they can join a club or edit one they created</li>
+            <li>Is a club currently active?</li>
+        </ul>
+        <h4><strong>Identifying Undefined Values</strong></h4>
+        <p>Finally, you want to mention the possibility of handling a few undefined values. Let’s say a student creating a club is unsure about some of the meeting information for that club, but still would like to post it so it could gain some popularity. So, you might provide the option of that value temporarily being “null” as a placeholder, until the student can update the meeting information.</p>
+    </div>
+    <div id="topic-2">
+        <p>For these practice problems, we will be working with primitive values in Javascript.</p>
+        <p>If you haven't already, download all Practice Problems for Sprint 1 <a class="inline_disabled" href="https://github.com/bloominstituteoftechnology/web-s01-practice-problems/archive/refs/heads/main.zip" target="_blank">HERE</a>. The setup instructions can be found <a class="inline_disabled" href="https://bloomtech-1.wistia.com/medias/wzc5y598ke" target="_blank">HERE</a>.</p>
+    </div>
+    <div id="topic-3">
+        <p><iframe class="wistia_embed" title="Web S1 M1 CC2 Video 1 - Understanding Primitive Types" src="https://fast.wistia.net/embed/iframe/0e3vuai7qf?seo=false" width="640" height="360" name="wistia_embed" allow="autoplay; fullscreen" loading="lazy"></iframe></p>
+    </div>
+</div>
+<p>&nbsp;</p>
+<hr style="width: 90%; height: 2px; text-align: center; margin: 0 auto; border: none; color: #93005a; background-color: #93005a;">
+<h4 style="text-align: right; padding-top: 5px; padding-right: 5%;"><em><strong>Next: &nbsp;Using arithmetic operations</strong></em></h4>
+</body>
+</html>

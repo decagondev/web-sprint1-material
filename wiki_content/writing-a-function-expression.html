@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title> Writing a function expression</title>
+<meta name="identifier" content="gce36e41508575c80a3fef079ef04fb12"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<div class=" border border-trbl" style="background-color: #00808c; color: #ffffff; padding: 2px 10px; border: 1px solid black;">
+    <h3><strong>Overview</strong></h3>
+</div>
+<div class="content-box pad-box-mini border border-rbl">
+    <p><span>Alternatively, and this is commonly used, you will see basic functions being written as “variable expressions”, as seen here:</span></p>
+    <pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"><code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"><span style="border: 0px none #d73a49; color: #d73a49;">const</span> sampleFunction = <span style="border: 0px none #d73a49; color: #d73a49;">function</span>() { <span style="border: 0px none #6a737d; color: #6a737d;">// function name used as variable name instead</span><br>&nbsp; <span style="border: 0px none #d73a49; color: #d73a49;">console</span>.<span style="border: 0px none #6f42c1; color: #6f42c1;">log</span>(<span style="border: 0px none #032f62; color: #032f62;">"Hello"</span>)<br>}<br><br><span style="border: 0px none #6f42c1; color: #6f42c1;">sampleFunction</span>() <span style="border: 0px none #6a737d; color: #6a737d;">// prints “Hello”</span><br></code></pre>
+    <p>The only major syntactical differences are that the desired function name is now the variable name (declared with a keyword <code>let</code> or <code>const</code> followed by an equal sign <code>=</code>), and a keyword <code>function()</code> is added where the old function name used to be. So far, you have only seen primitive values stored in variables, like strings or numbers. Storing a function in a variable may not seem helpful, but later you'll learn how to leverage this when it comes to function inputs. Finally, when invoking this function, we can call it as we did before.</p>
+</div>
+<div class="enhanceable_content tabs">
+    <ul>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-1"><strong>How to Build it</strong></a></li>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-2"><strong>Practice</strong></a></li>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-3"><strong>Walkthrough</strong></a></li>
+    </ul>
+    <div id="topic-1">
+        <p><span>Let’s return your work to the “Discovering Oceana” marine research lab. The team would like you to save the&nbsp;</span><span>function you created earlier to a variable. This will better allow them to use this function inside other functions, a concept we will cover later in the course.</span></p>
+        <pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"><code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"><span style="border: 0px none #d73a49; color: #d73a49;">const</span> startProcess = <span style="border: 0px none #d73a49; color: #d73a49;">function</span>() { <span style="border: 0px none #6a737d; color: #6a737d;">// proper format for function expression</span><br>&nbsp; <span style="border: 0px none #d73a49; color: #d73a49;">console</span>.<span style="border: 0px none #6f42c1; color: #6f42c1;">log</span>(<span style="border: 0px none #032f62; color: #032f62;">"process started"</span>) <span style="border: 0px none #6a737d; color: #6a737d;">// action to be performed by the function</span><br>}<br><br><span style="border: 0px none #6f42c1; color: #6f42c1;">startProcess</span>() <span style="border: 0px none #6a737d; color: #6a737d;">// prints "process started"</span><br></code></pre>
+        <p><span>Same as before, the function is saved as a variable that receives its name </span><code>startProcess</code><span>. Don’t forget that to actually execute the function, or print out "process started,” you need to <strong>invoke the function.</strong></span></p>
+    </div>
+    <div id="topic-2">
+        <p>For these practice problems we will practice writing functions as variable expressions.</p>
+        <p>If you haven't already, download all Practice Problems for Sprint 1 <a class="inline_disabled" href="https://github.com/bloominstituteoftechnology/web-s01-practice-problems/archive/refs/heads/main.zip" target="_blank">HERE</a>. The setup instructions can be found <a class="inline_disabled" href="https://bloomtech-1.wistia.com/medias/wzc5y598ke" target="_blank">HERE</a>.</p>
+    </div>
+    <div id="topic-3">
+        <p><iframe class="wistia_embed" title="Web S1 M3 CC1 Video 1 - Writing a Function Statement" src="https://fast.wistia.net/embed/iframe/f7w7j9qaj6?seo=false" width="640" height="360" name="wistia_embed" allow="autoplay; fullscreen" loading="lazy"></iframe></p>
+    </div>
+</div>
+<p>&nbsp;</p>
+<hr style="width: 90%; height: 2px; text-align: center; margin: 0 auto; border: none; color: #93005a; background-color: #93005a;">
+<h4 style="text-align: right; padding-top: 5px; padding-right: 5%;"><em><strong>Next: Changing the outer world using a function</strong></em></h4>
+</body>
+</html>

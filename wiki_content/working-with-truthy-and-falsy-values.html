@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Working with truthy and falsy values</title>
+<meta name="identifier" content="ge73136a7c1b34bce4f5e153d31907911"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<div class=" border border-trbl" style="background-color: #00808c; color: #ffffff; padding: 2px 10px; border: 1px solid black;">
+    <h3><strong>Overview</strong></h3>
+</div>
+<div class="content-box pad-box-mini border border-rbl">
+    <p>In JavaScript, a value is considered<strong> "falsy"</strong> if it is either the boolean value <code>false</code>, or one of the five false values when converted to a boolean. These five values are:</p>
+    <ul>
+        <li><code>0</code> (the number zero)</li>
+        <li><code>''</code> (an empty string)</li>
+        <li><code>null</code></li>
+        <li><code>undefined</code></li>
+        <li><code>NaN</code> (not a number)</li>
+    </ul>
+    <p>Any other value in JavaScript is considered <strong>"truthy"</strong>. This means that, when any value is converted to a boolean, it will be <code>true</code> <em>unless</em> it is one of the five values listed above, in which case it will be <code>false</code>.</p>
+    <p>For example, the number one is truthy because it is not <code>0</code>. The string <code>'hello'</code> is also truthy, because it is not an empty string. On the other hand, the number <code>0</code> and the string <code>''</code> are both falsy because they are one of the five falsy values.</p>
+</div>
+<div class="enhanceable_content tabs">
+    <ul>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-1"><strong>How to Build it</strong></a></li>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-2"><strong>Practice</strong></a></li>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-3"><strong>Walkthrough</strong></a></li>
+    </ul>
+    <div id="topic-1">
+        <p>Two race requirements include determining if a team has no runners and if the team has a team name. A nameless team with no runners is likely an error and shouldn’t show up during the sign-in process. To determine this, we could check how many runners a team has.</p>
+        <div class="highlight highlight-source-js notranslate position-relative overflow-auto">
+            <pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"><code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;">numberOfRunnersForTeam1 = <span style="border: 0px none #005cc5; color: #005cc5;">5</span>;<br>numberOfRunnersForTeam2 = <span style="border: 0px none #005cc5; color: #005cc5;">0</span>;<br>numberOfRunnersForTeam3 = <span style="border: 0px none #005cc5; color: #005cc5;">undefined</span>;<br><br><span style="border: 0px none #d73a49; color: #d73a49;">let</span> doesTeam1HaveRunners = <span style="border: 0px none #6f42c1; color: #6f42c1;">Boolean</span>(numberOfRunnersForTeam1); <span style="border: 0px none #6a737d; color: #6a737d;">// doesTeam1HaveRunners will be true because 5 is truthy</span><br><span style="border: 0px none #d73a49; color: #d73a49;">let</span> doesTeam2HaveRunners = <span style="border: 0px none #6f42c1; color: #6f42c1;">Boolean</span>(numberOfRunnersForTeam2); <span style="border: 0px none #6a737d; color: #6a737d;">// doesTeam2HaveRunners will be false because 0 is falsy</span><br><span style="border: 0px none #d73a49; color: #d73a49;">let</span> doesTeam3HaveRunners = <span style="border: 0px none #6f42c1; color: #6f42c1;">Boolean</span>(numberOfRunnersForTeam3); <span style="border: 0px none #6a737d; color: #6a737d;">// doesTeam3HaveRunners will be false because undefined is falsy</span></code></pre>
+            <p>In this example, we used <code>Boolean()</code> to convert a value to a boolean. If the value is truthy, the function will return <code>true</code>, and if the value is falsy, the function will return <code>false</code>.</p>
+            <p>Another example might be if we want to check if a team name has been given. This can be done by simply passing a string into <code>Boolean()</code>.</p>
+            <div class="highlight highlight-source-js notranslate position-relative overflow-auto">
+                <pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"><code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;">team1.<span>name</span> = <span style="border: 0px none #032f62; color: #032f62;">'Team Warriors'</span>;<br>team2.<span>name</span> = <span style="border: 0px none #032f62; color: #032f62;">''</span>;<br><br><span style="border: 0px none #d73a49; color: #d73a49;">let</span> isTeam1NameValid = <span style="border: 0px none #6f42c1; color: #6f42c1;">Boolean</span>(team1.<span>name</span>); <span style="border: 0px none #6a737d; color: #6a737d;">// isTeam1NameValid will be true because 'Team Warriors' is truthy</span><br><span style="border: 0px none #d73a49; color: #d73a49;">let</span> isTeam2NameValid = <span style="border: 0px none #6f42c1; color: #6f42c1;">Boolean</span>(team2.<span>name</span>); <span style="border: 0px none #6a737d; color: #6a737d;">// isTeam2NameValid will be false because an empty string is falsy</span></code></pre>
+                <p>Note that only <em><strong>empty</strong></em> strings are falsy. <strong>A string with even a single space (<code> </code>) is not an "empty string" since the space is considered a character.</strong></p>
+            </div>
+        </div>
+    </div>
+    <div id="topic-2">
+        <p>For these practice problems, we will practice working with "truthy" and "falsy" values in Javascript.</p>
+        <p>If you haven't already, download all Practice Problems for Sprint 1 <a class="inline_disabled" href="https://github.com/bloominstituteoftechnology/web-s01-practice-problems/archive/refs/heads/main.zip" target="_blank">HERE</a>. The setup instructions can be found <a class="inline_disabled" href="https://bloomtech-1.wistia.com/medias/wzc5y598ke" target="_blank">HERE</a>.</p>
+    </div>
+    <div id="topic-3"><iframe class="wistia_embed" title="Web S1 M2 CC1 Falsiness Video L01" src="https://fast.wistia.net/embed/iframe/n2cw2pjb5b" width="640" height="360" name="wistia_embed" allow="autoplay; fullscreen" loading="lazy"></iframe></div>
+</div>
+<p>&nbsp;</p>
+<hr style="width: 90%; height: 2px; text-align: center; margin: 0 auto; border: none; color: #93005a; background-color: #93005a;">
+<h4 style="text-align: right; padding-top: 5px; padding-right: 5%;"><em><strong>Next: Negating with the logical not (!) operator</strong></em></h4>
+</body>
+</html>

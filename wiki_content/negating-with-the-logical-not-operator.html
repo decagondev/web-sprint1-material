@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Negating with the logical not (!) operator</title>
+<meta name="identifier" content="g41d5df4277c9bfb6bcdddfc5eca2bd47"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<div class=" border border-trbl" style="background-color: #00808c; color: #ffffff; padding: 2px 10px; border: 1px solid black;">
+    <h3><strong>Overview</strong></h3>
+</div>
+<div class="content-box pad-box-mini border border-rtl">
+    <p><span>The logical not (!) used with any value produces the "Boolean opposite" of the value. This means that if a value is </span><code>true</code><span> or truthy, using the </span><strong><code>!</code></strong><span> operator before it will make the value </span><code>false</code><span>, and if a value is </span><code>false</code><span> or falsy, using the </span><code>!</code><span> operator before it will make the value </span><code>true</code><span>.</span></p>
+    <div class="highlight highlight-source-js notranslate position-relative overflow-auto">
+        <pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"><code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;">!<span style="border: 0px none #005cc5; color: #005cc5;">true</span> <span style="border: 0px none #6a737d; color: #6a737d;">// evaluates to false</span><br>!<span style="border: 0px none #005cc5; color: #005cc5;">false</span> <span style="border: 0px none #6a737d; color: #6a737d;">// evaluates to true</span><br>!<span style="border: 0px none #032f62; color: #032f62;">"hello"</span> <span style="border: 0px none #6a737d; color: #6a737d;">// evaluates to false, because "hello" is truthy</span><br>!<span style="border: 0px none #005cc5; color: #005cc5;">null</span> <span style="border: 0px none #6a737d; color: #6a737d;">// evaluates to true, because null is falsy</span></code></pre>
+    </div>
+</div>
+<div class="enhanceable_content tabs">
+    <ul>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-1"><strong>How to Build it</strong></a></li>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-2"><strong>Practice</strong></a></li>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-3"><strong>Walkthrough</strong></a></li>
+    </ul>
+    <div id="topic-1">
+        <p>Let's say that the variable <code>isTeamCheckedIn</code> is set to <code>false</code> when a team starts checking in and <code>true</code> when they’ve completed checking in. A progress bar shows on the screen throughout the check-in process and disappears when the team is checked in. We can set a second variable called <code>shouldShowProgressBar</code> that would hold the opposite value of <code>isTeamCheckedIn</code>.&nbsp; Use the <code>!</code> operator to set the <code>shouldShowProgressBar</code> variable by doing the following:</p>
+        <div class="highlight highlight-source-js notranslate position-relative overflow-auto">
+            <pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"><code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"><span style="border: 0px none #d73a49; color: #d73a49;">let</span> isTeamCheckedIn = <span style="border: 0px none #005cc5; color: #005cc5;">false</span>;<br><span style="border: 0px none #d73a49; color: #d73a49;">let</span> shouldShowProgressBar = !isTeamCheckedIn;<br></code></pre>
+            <p>Because the value of <code>isTeamCheckedIn</code> is <code>false</code>, the <code>shouldShowProgressBar</code> statement will evaluate to <code>true</code> , negating the value of <code>isTeamCheckedIn</code>.</p>
+        </div>
+    </div>
+    <div id="topic-2">
+        <p>Practice using the "not" operator <code>!</code> in Javascript.</p>
+        <p>If you haven't already, download all Practice Problems for Sprint 1 <a class="inline_disabled" href="https://github.com/bloominstituteoftechnology/web-s01-practice-problems/archive/refs/heads/main.zip" target="_blank">HERE</a>. The setup instructions can be found <a class="inline_disabled" href="https://bloomtech-1.wistia.com/medias/wzc5y598ke" target="_blank">HERE</a>.</p>
+    </div>
+    <div id="topic-3"><iframe class="wistia_embed" title="WebS1 M2 CC1 Falsiness Video L02" src="https://fast.wistia.net/embed/iframe/rwj4qmh4w7" width="640" height="360" name="wistia_embed" allow="autoplay; fullscreen" loading="lazy"></iframe></div>
+</div>
+<p>&nbsp;</p>
+<hr style="width: 90%; height: 2px; text-align: center; margin: 0 auto; border: none; color: #93005a; background-color: #93005a;">
+<p>&nbsp;</p>
+<div class=" border border-trbl" style="background-color: #00808c; color: #ffffff; padding: 2px 10px; border: 1px solid black;">
+    <h3><strong>Conclusion</strong></h3>
+</div>
+<div class="content-box pad-box-mini border border-tlr">
+    <p><span>Falsiness and the </span><code>!</code><span> operator are foundational concepts that you will use again and again. Next, you will learn more advanced ways to leverage these concepts in your code and how these concepts can be used to build sleek and powerful applications.</span></p>
+</div>
+</body>
+</html>

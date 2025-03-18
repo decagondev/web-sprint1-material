@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules xmlns="http://canvas.instructure.com/xsd/cccv1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 https://canvas.instructure.com/xsd/cccv1p0.xsd">
+  <module identifier="gefaedab0e5390599a34ae6dc7ce4589b">
+    <title>Learner Resources</title>
+    <workflow_state>unpublished</workflow_state>
+    <position>1</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="gb516c67c8d1043015de031ed494892ae">
+        <content_type>WikiPage</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Important Info</title>
+        <identifierref>g063d1ad6a69b0683663490c5aa35dbc2</identifierref>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="gf6e47fb086e16e240d2102653e6cc261">
+    <title>Orientation: Welcome to BloomTech</title>
+    <workflow_state>active</workflow_state>
+    <position>2</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="ga86b9e273d427af2c568ead1957d5265">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Course Navigation</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g01ae8ce35b979eb5676e94a4d63fc9d4">
+        <content_type>WikiPage</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Canvas Courses at BloomTech</title>
+        <identifierref>geee626812013bc69b403dae8ee79728d</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gb606214dd0fded9993c661d01064aca3">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Progression Requirements</title>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g1259f60dd7bdde3027c14870531c21e6">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Course Components and Expectations</title>
+        <identifierref>gbc86654bb4d1e9dcb66b1e4f93f1d51c</identifierref>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g1d60f94025cc2c2dff2b5dc3aa41886b">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Computer Setup</title>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="ga7f8b5f4dc52044bc7f22bf93207df45">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Mac Users: How to set up your computer</title>
+        <identifierref>g4eb67e1777e905a573a3ed2c81d51841</identifierref>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g8c63b091cd7cca17692a6a1a3615026c">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Windows Users: How to set up your computer</title>
+        <identifierref>gf9faf3c268bf26954d65605f3973bb78</identifierref>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gd25ac1ea9450021f04e2f1fd7e0ed952">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Other tools: CodeGrade and Practice Problems</title>
+        <identifierref>g594a1bdb2c4886e63eeb85a96a46d23b</identifierref>
+        <position>8</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g7ae6e660fefc0aec4ebcc77e89a4ee77">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Learner Support</title>
+        <position>9</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gc9cde3ead66c1811ffd046d3d0948fec">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Academic Support</title>
+        <identifierref>gd8a4d481cc680b23386bd2b7494b782c</identifierref>
+        <position>10</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g7d4ffd5e4adf7c1b40c4958bd24b6331">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>LearnBot</title>
+        <identifierref>gf0b0f6f1a5344fe67f5a1cf1a9f2d57b</identifierref>
+        <position>11</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g60765e6d8256bfa78cac96d309126022">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Live Instruction</title>
+        <position>12</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g4a1eb6bc35abf47d6c208cc61dc380ee">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Live Class Offerings</title>
+        <identifierref>g17953e68d4e03c67352754145ad82911</identifierref>
+        <position>13</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g64dbb41f4518106d661e9299ad54bd8a">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Technical Support</title>
+        <position>14</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g9f88de18367bddeff365ce78b33c7191">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Technical Assistance</title>
+        <identifierref>g95bd86a4609de0ce49e1b29c21850377</identifierref>
+        <position>15</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g11d072ff7a2f10d94800af420a663327">
+    <title>Module 1 - First Steps into JavaScript</title>
+    <workflow_state>active</workflow_state>
+    <position>3</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="gcb6eba7146cbfc2d1e5f97bbfe9f9677">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Core Competencies</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gc6e703c6c4c2872566487a6bc297e285">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Working on a Web Application</title>
+        <identifierref>gbbfd7fed33d21eaff57fdd232ab8218d</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g2d8e983f7296bea256f17b0a5c84e609">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title> Opening your first web application</title>
+        <identifierref>gc717064a986f34ffcf90228ab21acf87</identifierref>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g0bd986cb4f9141048b7009f96c019033">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Accessing the JavaScript interpreter: the console</title>
+        <identifierref>gea06592799e886e418c10f97c03b4a30</identifierref>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g47a600d737ce2f5423e7d0913fa38c0b">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Adding code to a page using VS Code</title>
+        <identifierref>gcda2de2482e82df3f1736755ce634c49</identifierref>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g254f85a770424ad121e098da2aab372c">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Using the console to troubleshoot problems</title>
+        <identifierref>g6ebf13f67d86d8f09c1c1a033c296729</identifierref>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g6011a8668e0b7d3971d4e2c624eaa256">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Adding comments to the code</title>
+        <identifierref>g42915f43e4108b5881d12ba718d4705f</identifierref>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g284dcbb6471abdac67a00cffe2f8dda0">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Formatting code automatically</title>
+        <identifierref>g364f7ee0320a38cf6cd81b8964f9e10b</identifierref>
+        <position>8</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g091abf27639e651443e7e076608d31f2">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Values</title>
+        <identifierref>g683e3d89dc20d25739feb8e12efa6f41</identifierref>
+        <position>9</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g53239336be3292513c510dca52d418d9">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Understanding primitive types</title>
+        <identifierref>ge8ebdec3d55ac7afd5f336dc8f2ece72</identifierref>
+        <position>10</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g772d2d44d8ef7fde8a38accc4cf0be38">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Using arithmetic operators</title>
+        <identifierref>g6e80ba637cf4cbcf56d53aa713859c78</identifierref>
+        <position>11</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g211439163b55814f7cef3fdc4477d6e6">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Joining strings with the + operator</title>
+        <identifierref>g7ec4611d159e8566d29c6667789a38f1</identifierref>
+        <position>12</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g1c446485c7452e520c8d9b94a68500c9">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title> Determining type with the typeof operator</title>
+        <identifierref>g7751b0b1dfdd4027e1b03e490672f8b4</identifierref>
+        <position>13</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g74abdcd9aa1978b80008327d6131ccd7">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Variables</title>
+        <identifierref>gaafa035205f14ef52b9adf7409f1e668</identifierref>
+        <position>14</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gd5dca5fd47266322c095e8f1b08e1284">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Declaring a variable with let</title>
+        <identifierref>g373d0714a06f0d4a7f240c8b84dc4738</identifierref>
+        <position>15</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gd8ba5449e897fa3c520f204ed585a70b">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Declaring a variable with const</title>
+        <identifierref>gcbf74128f1488121bdb22b6fcc79c6a2</identifierref>
+        <position>16</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gd9e14bfd8a991fd573c34047472f1090">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Printing variables to the console</title>
+        <identifierref>g7761b3a19efe6b8aa31c6bcf6326b230</identifierref>
+        <position>17</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g078b87e9c4a869197496748dbb51f2a0">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Comparison and Logic</title>
+        <identifierref>g18ae7f6001e14cb487991fb573bcc4b1</identifierref>
+        <position>18</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g69c0670de834524d3fde73eae5286d7a">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Mastering the comparison operators</title>
+        <identifierref>g70592592c57069cda0c2329dae02d22d</identifierref>
+        <position>19</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g47d08d5baa85f086aa77a1b18d8240b4">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Solving logical expressions</title>
+        <identifierref>g68bb938e0f89249a285f1e415a523dc4</identifierref>
+        <position>20</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gc8657ffa7ea1d24103202ad41c49ee9a">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Guided Project</title>
+        <position>21</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g64e5259509831bfb9e2ddc62a4a3e92c">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Module 1 Guided Project: First Steps into JavaScript</title>
+        <identifierref>g7138dede3b6eaa26c262ec7a7183626c</identifierref>
+        <position>22</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g2c610fd58f0332cd0c25ee970f5e85cd">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Check for Understanding</title>
+        <position>23</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="ga635c14262aea5b1475e46abc814f620">
+        <content_type>Quizzes::Quiz</content_type>
+        <workflow_state>active</workflow_state>
+        <title>First Steps into Javascript - Check for Understanding</title>
+        <identifierref>gcde293eeefc70134583105d074c0e841</identifierref>
+        <position>24</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g6e18a8f6797538d932aba5578e88a918">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Practice Activity</title>
+        <position>25</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g19cd50eacc2c7ec1893a3965553f3f24">
+        <content_type>Assignment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Module 1 Project: First Steps into JavaScript</title>
+        <identifierref>g98fdf7f678cb8e51feaf389933acb6ae</identifierref>
+        <position>26</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="gc4570f57b20200da45819d7d9efa1748">
+    <title>Module 2 - Program Flow</title>
+    <workflow_state>active</workflow_state>
+    <position>4</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g67f75e4dd0a0e9eca2f2fce16b029b86">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Core Competencies</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="ge50ec598bad0b176aa98c213aff79dc9">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Falsiness</title>
+        <identifierref>gc6b1020368f76030356224bbd91634f8</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g004094feb816d6d09dfad44b88ae843f">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Working with truthy and falsy values</title>
+        <identifierref>ge73136a7c1b34bce4f5e153d31907911</identifierref>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g4fb8bb74f7b4e94fc15dea7e927bd5b3">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Negating with the logical not (!) operator</title>
+        <identifierref>g41d5df4277c9bfb6bcdddfc5eca2bd47</identifierref>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g26adda7fd10c193e049cbe5ddf30af97">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Advanced Logic</title>
+        <identifierref>gc82c3da4670e2992296cfeff752e7080</identifierref>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gd96e7ce88cce93da8bb96a94da923115">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Using the AND (&amp;&amp;) operator with values of any type</title>
+        <identifierref>g1867dc8e89cab9ee784edcd9a3b4b4be</identifierref>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g5b422a45f06f0ec2db1201ab7754aed8">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Using the OR (||) operator with values of any type</title>
+        <identifierref>gdc68695008dbc08966371c1dbf22f20a</identifierref>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g2ac0e1c8486bd1b016f98011ca927750">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Evaluating advanced logical expressions</title>
+        <identifierref>g8529f9701d62663994edbcf363bdf97e</identifierref>
+        <position>8</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g27168127812991a7b74efcdd42dd5426">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Conditional Code</title>
+        <identifierref>ge71deb6886be19b1f585d02ae13c7026</identifierref>
+        <position>9</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gf31299fc64e5ebc4be2db67345b0011f">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Understanding the if statement structure</title>
+        <identifierref>g7cfde9762f5669f3ca52efe145aedbd5</identifierref>
+        <position>10</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g709bb0d3924e9e810f62ad0b208987c4">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Using an if statement to set a value</title>
+        <identifierref>gbeb78b02d6f5115cb0e71e9347bc6a49</identifierref>
+        <position>11</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gf14630c56a03b26806be5bd44d184fad">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Chaining else and else if statements</title>
+        <identifierref>g85f01049a4b8bbea3210ac26f34bc2f1</identifierref>
+        <position>12</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g2a03fc4d759ff1a5517395c551669bfb">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Writing large conditional statements</title>
+        <identifierref>g6fdffd1849245fc15dc2fdf256be1e63</identifierref>
+        <position>13</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g75234c22762d21d0628ee110ed4227d4">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Guided Project</title>
+        <position>14</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gb59c794296dcaca6acf1b22ec3707281">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Module 2 Guided Project: Program Flow</title>
+        <identifierref>g4b15a8b0d267b710c154544edc6db92f</identifierref>
+        <position>15</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gbe0b3c68e5bf86862e7bee8f76aeaaa7">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Check for Understanding</title>
+        <position>16</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g6808c9a026ad6281ad44e6d7a35a5bf9">
+        <content_type>Quizzes::Quiz</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Program Flow - Check for Understanding</title>
+        <identifierref>gca8b99c51f99fc682e3431dc57982d3e</identifierref>
+        <position>17</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g0dcd589483c312cb1bfa7d630a82e8a9">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Practice Activity</title>
+        <position>18</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g5bdbe472e8f2c7070fde6859ce30155a">
+        <content_type>Assignment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Module 2 Project: Program Flow</title>
+        <identifierref>ge9e537c80cddfc0b05caca726ec77774</identifierref>
+        <position>19</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g7fe94c1f5092fe1aa2f99ff0cfd43f47">
+    <title>Module 3 - Functions</title>
+    <workflow_state>active</workflow_state>
+    <position>5</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g84d553709b4f8d6380070ff70b426903">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Core Competencies</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g06b096d99e0c87514eea70831376a4bb">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Declaring a Function</title>
+        <identifierref>g5c0d753cd4e292623926119c78462612</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g16f0b131402c3c166a4d4fb647389e1b">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Writing a function statement</title>
+        <identifierref>g723fb04a0a263e08c8d6e2a499cad1f2</identifierref>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g4c25e4142573532faa157415e10f8818">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Invoking a function</title>
+        <identifierref>g0e8af04329759e70f8aa499dffd056d5</identifierref>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g6a165a540449c13fa7604947e7f3b76a">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title> Writing a function expression</title>
+        <identifierref>gce36e41508575c80a3fef079ef04fb12</identifierref>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g51d0c6d3e228c19d394b9c69712546ec">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Changing the outer world using a function</title>
+        <identifierref>g18e2f80ae1a32a6235740bbfc550fc2b</identifierref>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g9708a6cdb6eb9471a5836812f7366596">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Returning Values</title>
+        <identifierref>g42b25e9ac8d1067afe80fa6600a8adf0</identifierref>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g8cd797af8eabf696009b263e3900409c">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Returning a value from a function</title>
+        <identifierref>g2eff66b137c59c2bcd5b0f6308e15ee9</identifierref>
+        <position>8</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g47ff56a36b452b81758016d91a957788">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Returning a value VS. printing a value</title>
+        <identifierref>gf13f7a8cfc6caa4ff96c273bfe2f11e8</identifierref>
+        <position>9</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g648e3cf1496488966bde2d6c1e5bc3b2">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Passing Arguments</title>
+        <identifierref>g38c3c9763a431b36de294f901d59b656</identifierref>
+        <position>10</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g1e6ec9edb0da1b035a48d2f8eecad142">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Making functions accept information</title>
+        <identifierref>ga145b0bf57721936c6373bbf0f747222</identifierref>
+        <position>11</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g1e7b30636148684b491caf078ad95593">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>String Interpolation</title>
+        <identifierref>gfc0318ca2783bfc41ed6783b92852e4c</identifierref>
+        <position>12</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g4b345c96b52803c80e0688a8978f5cac">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Working with strings</title>
+        <identifierref>g2641349567133ff91d8768752e4f6648</identifierref>
+        <position>13</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g1a1bc10d8c32a33ac6b6f3fb8bbbe45a">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Working with template literals</title>
+        <identifierref>gdbaf8e2a6df083baf6ef2417dc03262a</identifierref>
+        <position>14</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="ga2147d7ea65ad978e6d8ae0a50ebef3d">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Guided Project</title>
+        <position>15</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g4a82cecdb57b327fba0517e6c118cb56">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Module 3 Guided Project: Functions</title>
+        <identifierref>g902e69e5aff27bfb230fe4485a5b1dd0</identifierref>
+        <position>16</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g433657b77258bc36166fb9a4cafa6a97">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Check for Undestanding</title>
+        <position>17</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g9c7077be6cddd0a52fa1b2a8d878e646">
+        <content_type>Quizzes::Quiz</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Functions - Check for Understanding</title>
+        <identifierref>g4cd4350deee8adaec5b13f6049c30696</identifierref>
+        <position>18</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="ge0ebb76186f9191bf47ce0b3a3cc876c">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Practice Activity</title>
+        <position>19</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gf2ac91958e2fd784d1d07bbe0583de58">
+        <content_type>Assignment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Module 3 Project: Functions</title>
+        <identifierref>g88aee19a3736dcbe07ae617d16c2aee2</identifierref>
+        <position>20</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="gd90c62bae666079915152854282ae993">
+    <title>Module 4 - HTML &amp; CSS I</title>
+    <workflow_state>active</workflow_state>
+    <position>6</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g4124b5db4e3084cf6b9c7d166d4e7036">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Core Competencies</title>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gf83ca3244be6fff016a78d00ea32fa40">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>The Anatomy of an HTML Document</title>
+        <identifierref>g08d59246ac999a1403ab91685cbe4e3e</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g3083ed3d5f9945b1be505845fc213136">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Understanding the general structure of an HTML document</title>
+        <identifierref>g5e34b44db20b15148b05577fef7c3930</identifierref>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gaadc9417059117376d0def9fa3cd1146">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Marking text up with HTML (semantic tags)</title>
+        <identifierref>gd0b7c4295a76ffde1d6e5e5b1d1edce6</identifierref>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="ge2a5885919b3ee9f8c6b677df692971f">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Understanding Nested Tags</title>
+        <identifierref>g1accad13aaf2b5a2cfbc955fc6c19b0d</identifierref>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g1ecdf58ae74ab0de2c03ec5a0ee4f734">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Using HTML tag attributes</title>
+        <identifierref>g2b5608eb51f6c5aeb6af9a4ea50daa6d</identifierref>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gb3f14a7b26e38f8316b11b0e150962d7">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Embedding Styles and Code</title>
+        <identifierref>g2ad6e83550c83ffbcae10e24429ac6af</identifierref>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g5aab5c2e0977b42682220ab338716d12">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Using the style tag to apply CSS to a page</title>
+        <identifierref>gab7c490610ecb979b93dbf64bccfbe34</identifierref>
+        <position>8</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g684a1fc8b904eb4a886859ce0de9802d">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Including the script tag for added functionality on a webpage</title>
+        <identifierref>gaf15adce4081e1b1a343fb90661b9605</identifierref>
+        <position>9</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gd3118a110fe241c4a679a3f1ed272aab">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Using Dev Tools</title>
+        <identifierref>gaef2c9a643ec3467da7b3fe52e150379</identifierref>
+        <position>10</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g1bbe8372c6f8fb90f989a447bc4098ce">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Opening Chrome dev tools</title>
+        <identifierref>g771707d9d325b9a61e84822c1be1ef06</identifierref>
+        <position>11</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g891fe1747afafbfcd5cfebaa6e69b8cc">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Using the Chrome dev tools to investigate and manipulate web pages</title>
+        <identifierref>ge1235bf7b17fe1ff0b6fee7b8f5b679d</identifierref>
+        <position>12</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g27c87e188b1a105b9c381fc4f7bb6a9d">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Guided Project</title>
+        <position>13</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g2278a9acd710292205ba3f452e78639e">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Module 4 Guided Project: HTML &amp; CSS I</title>
+        <identifierref>g749b040912816d018baf8553befd893f</identifierref>
+        <position>14</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g36324362fd233499071195302c02e9ab">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Check for Understanding</title>
+        <position>15</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g5ff35b2fda558146f7d2966b951d63ee">
+        <content_type>Quizzes::Quiz</content_type>
+        <workflow_state>active</workflow_state>
+        <title>HTML and CSS I - Check for Understanding</title>
+        <identifierref>ge324572e0403159fafd6ea2d23968a44</identifierref>
+        <position>16</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gb14f1f46f1584fd89d01bff3b7bba234">
+        <content_type>ContextModuleSubHeader</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Practice Activity</title>
+        <position>17</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="ga6c102ed74d64c2b4de6d6136e98fe0b">
+        <content_type>Assignment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Module 4 Project: HTML and CSS I</title>
+        <identifierref>g8ec79902a5eb58e00954a3f0b0a2519b</identifierref>
+        <position>18</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g5758a3730ae966254bd6a124740f9af5">
+    <title>Sprint Challenge</title>
+    <workflow_state>active</workflow_state>
+    <position>7</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="ge8f3102e555bc3a8cfdc0d733af4f963">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Web Sprint Challenge Setup</title>
+        <identifierref>gbe162c837a8ff7ec2a691f4f655103b9</identifierref>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g4801118a16b8f3e7b98331f7a72dfd2e">
+        <content_type>Assignment</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Sprint Challenge Submission</title>
+        <identifierref>g3067d26819c51e00fd929d0fe0f3fb59</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g06719c818c075fd1b0173c8a6382aae8">
+        <content_type>Quizzes::Quiz</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Sprint Assessment</title>
+        <identifierref>gf2f432e3ae1775b454cb339156a06426</identifierref>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g161f86dac83203d1b9c3cf21ced1dced">
+        <content_type>Quizzes::Quiz</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Sprint Retrospective Survey</title>
+        <identifierref>ge42d5f986d1c0566d851c14445505c46</identifierref>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g4fbc2ee328f486155612b3c511675c23">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Next Step</title>
+        <identifierref>gde658f7b07c955ebca4c5ff849b18f6d</identifierref>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+</modules>

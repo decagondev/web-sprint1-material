@@ -1,0 +1,47 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Understanding the if statement structure</title>
+<meta name="identifier" content="g7cfde9762f5669f3ca52efe145aedbd5"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<div class=" border border-trbl" style="background-color: #00808c; color: #ffffff; padding: 2px 10px; border: 1px solid black;">
+    <h3><strong>Overview</strong></h3>
+</div>
+<div class="content-box pad-box-mini border border-rbl">
+    <p><img style="float: left; margin-bottom: 0px; width: 463px;" src="$IMS-CC-FILEBASE$/Uploaded%20Media/if_statement.jpeg" alt="If and condition example" height="285" data-api-endpoint="https://bloomtech.instructure.com/api/v1/courses/2770/files/653023" data-api-returntype="File" loading="lazy"></p>
+    <p>Conditional statements begin with the keyword <code>if</code>.</p>
+    <p>Following the keyword are parenthesis where the test or condition lives, and the condition can be any expression.</p>
+    <p>After the parentheses goes a code block. JavaScript evaluates the condition, and only if the resulting value is truthy will the statements inside the code block run.</p>
+    <p><span>To see this in action, type the following snippets of code in your browser's console. What do you think will happen?</span></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"><code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"><span style="border: 0px none #6a737d; color: #6a737d;">// the _condition_ or _test_ is inside parens</span><br><span style="border: 0px none #6a737d; color: #6a737d;">// and the _code block_ is delimited by curly braces</span><br><span style="border: 0px none #d73a49; color: #d73a49;">let</span> lovingJavaScript = <span style="border: 0px none #005cc5; color: #005cc5;">true</span>;<br><br><span style="border: 0px none #d73a49; color: #d73a49;">if</span> (lovingJavaScript) {<br>&nbsp;&nbsp;<span style="border: 0px none #d73a49; color: #d73a49;">console</span>.<span style="border: 0px none #6f42c1; color: #6f42c1;">log</span>(<span style="border: 0px none #032f62; color: #032f62;">'Love JS'</span>); <span style="border: 0px none #6a737d; color: #6a737d;">// this line runs only if `lovingJavaScript` is truthy</span><br>}</code></pre>
+    <p>We see that the condition is checking if the variable <code>lovingJavaScript</code> is truthy. We can see that the variable is set to true just before the if statement, so the code block is executed.</p>
+</div>
+<div class="enhanceable_content tabs">
+    <ul>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-1"><strong>How to Build it</strong></a></li>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-2"><strong>Practice</strong></a></li>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-3"><strong>Walkthrough</strong></a></li>
+    </ul>
+    <div id="topic-1">
+        <p>With the basics of if statements covered, let’s look at how we might solve a simple problem with Viking Runners. One of the requirements of check-in is to ensure that each team has the maximum number of runners (12). If they don’t have a full team, they can still run the race, but the race coordinator needs to inform the team.</p>
+        <pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"><code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"><span style="border: 0px none #d73a49; color: #d73a49;">let</span> teamCount = <span style="border: 0px none #005cc5; color: #005cc5;">10</span>;<br><br><span style="border: 0px none #d73a49; color: #d73a49;">if</span> (teamCount &lt; <span style="border: 0px none #005cc5; color: #005cc5;">12</span>) { <span style="border: 0px none #6a737d; color: #6a737d;">//in this case, this statement is true, so the code block will run</span><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="border: 0px none #d73a49; color: #d73a49;">console</span>.<span style="border: 0px none #6f42c1; color: #6f42c1;">log</span>(<span style="border: 0px none #032f62; color: #032f62;">"Inform the team that they are not a full team."</span>);<br>}</code></pre>
+        <p>Let’s look at another requirement where all team members must have a name in the system. If a name is missing, the program should inform the race coordinator of the omission. A blank string is falsy, so we can check if the names are blank inside the if statements conditional.</p>
+        <pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"><code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"><span style="border: 0px none #d73a49; color: #d73a49;">let</span> name = <span style="border: 0px none #032f62; color: #032f62;">""</span>;<br><br><span style="border: 0px none #d73a49; color: #d73a49;">if</span> (!name) { <span style="border: 0px none #6a737d; color: #6a737d;">// name is falsy, so the following code block will execute</span><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="border: 0px none #d73a49; color: #d73a49;">console</span>.<span style="border: 0px none #6f42c1; color: #6f42c1;">log</span>(<span style="border: 0px none #032f62; color: #032f62;">"Ask the team captain to update the runner's name"</span>);<br>}</code><span class="pl-kos"><br></span></pre>
+        <p>The <code>name</code><span> is blank (falsy), and with the not-operator, falsy turns to truthy. The race coordinator is prompted to talk to the team captain.</span></p>
+    </div>
+    <div id="topic-2">
+        <p>This section covered the basic structure of the if statement. You can practice coming up with your own if statements!</p>
+        <p>If you haven't already, download all Practice Problems for Sprint 1 <a class="inline_disabled" href="https://github.com/bloominstituteoftechnology/web-s01-practice-problems/archive/refs/heads/main.zip" target="_blank">HERE</a>. The setup instructions can be found <a class="inline_disabled" href="https://bloomtech-1.wistia.com/medias/wzc5y598ke" target="_blank">HERE</a>.</p>
+    </div>
+    <div id="topic-3"><iframe class="wistia_embed" title="Web S1 M2 CC3 Conditional Code Video L01" src="https://fast.wistia.net/embed/iframe/joqio0bft7" width="640" height="360" name="wistia_embed" allow="autoplay; fullscreen" loading="lazy"></iframe></div>
+</div>
+<p>&nbsp;</p>
+<hr style="width: 90%; height: 2px; text-align: center; margin: 0 auto; border: none; color: #93005a; background-color: #93005a;">
+<h4 style="text-align: right; padding-top: 5px; padding-right: 5%;"><em><strong>Next: Using an <code>if</code> statement to set a value</strong></em></h4>
+</body>
+</html>

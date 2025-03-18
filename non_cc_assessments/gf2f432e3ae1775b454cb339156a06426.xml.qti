@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="gf2f432e3ae1775b454cb339156a06426" title="Sprint Assessment">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>unlimited</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <section ident="gf749f6146756c7230db0fff8d3b70fb5" title="S1M1 SA Group">
+        <selection_ordering>
+          <selection>
+            <sourcebank_ref>g56c451f0c50dac1bed5c7043652e77b8</sourcebank_ref>
+            <selection_number>3</selection_number>
+            <selection_extension>
+              <points_per_item>1.0</points_per_item>
+            </selection_extension>
+          </selection>
+        </selection_ordering>
+      </section>
+      <section ident="gc1746d8c010c4d4cd0f0b3c24aac2c1d" title="S1M2 SA Group">
+        <selection_ordering>
+          <selection>
+            <sourcebank_ref>g83fad6cf23117cea0d4ed9ca476f23a1</sourcebank_ref>
+            <selection_number>4</selection_number>
+            <selection_extension>
+              <points_per_item>1.0</points_per_item>
+            </selection_extension>
+          </selection>
+        </selection_ordering>
+      </section>
+      <section ident="g00e6836152c944eed7ccd9691135adcb" title="S1M3 SA Group">
+        <selection_ordering>
+          <selection>
+            <sourcebank_ref>g1b49e4c285385457ca10f8bbcd0eeb8e</sourcebank_ref>
+            <selection_number>4</selection_number>
+            <selection_extension>
+              <points_per_item>1.0</points_per_item>
+            </selection_extension>
+          </selection>
+        </selection_ordering>
+      </section>
+      <section ident="g79100f3c6162b49e0a100ec3c406d92d" title="S1M4 SA Group">
+        <selection_ordering>
+          <selection>
+            <sourcebank_ref>g8c80aff5e4e4e147b065a1f16cc68a2e</sourcebank_ref>
+            <selection_number>4</selection_number>
+            <selection_extension>
+              <points_per_item>1.0</points_per_item>
+            </selection_extension>
+          </selection>
+        </selection_ordering>
+      </section>
+    </section>
+  </assessment>
+</questestinterop>

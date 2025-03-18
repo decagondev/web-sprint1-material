@@ -1,0 +1,2808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="g56c451f0c50dac1bed5c7043652e77b8">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>WEB: S1M1 First Steps into JavaScript Question Bank</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>OGhLziSuKG39Ng1jVO4NQFrO84LstWZdgSwcIkvB</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="g65f09ab835f1e9ab1e991ae1556411a6" title="CC1 LO2 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6073,8585,2373,8563</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;How do you access the Chrome Console? Select all that apply.&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="6073">
+              <material>
+                <mattext texttype="text/plain">Right-click on the web page and select Inspect</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8585">
+              <material>
+                <mattext texttype="text/plain">Use the keyboard shortcut Ctrl+Shift+j (Win) or Command+Option+j (Mac)</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2373">
+              <material>
+                <mattext texttype="text/plain">Open the Chrome browser and log in</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8563">
+              <material>
+                <mattext texttype="text/html">Open the Chrome browser and type 'console' in the search bar</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">6073</varequal>
+              <varequal respident="response1">8585</varequal>
+              <not>
+                <varequal respident="response1">2373</varequal>
+              </not>
+              <not>
+                <varequal respident="response1">8563</varequal>
+              </not>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g263e9d15258d1434d969c2c08737ca7d" title="CC1 LO2 - 2">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2407,2473,7935,2902</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the purpose of the console.log in JavaScript?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2407">
+              <material>
+                <mattext texttype="text/plain">To run code in the Chrome console</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2473">
+              <material>
+                <mattext texttype="text/plain">To log text or data to the console for debugging or testing</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7935">
+              <material>
+                <mattext texttype="text/plain">To style web pages</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2902">
+              <material>
+                <mattext texttype="text/plain">To open the Chrome Console</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2473</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+    </item>
+    <item ident="g6cfbf26311b9571ea343c7769176167c" title="CC1 LO3 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8427,9618,8295,2762</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Which tool lets you edit and save code?&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8427">
+              <material>
+                <mattext texttype="text/plain">VSCode</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9618">
+              <material>
+                <mattext texttype="text/plain">Chrome</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8295">
+              <material>
+                <mattext texttype="text/plain">Chrome Console</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2762">
+              <material>
+                <mattext texttype="text/plain">HTML</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8427</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8427_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">9618</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="9618_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8295</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8295_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2762</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2762_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8427</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="8427_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. VSCode is a code editor that allows you to edit and save code.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="9618_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Chrome is a web browser and does not have the functionality to edit and save code.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8295_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The Chrome Console is a tool used for debugging and testing, not for editing and saving code.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="2762_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. HTML is a markup language used for creating web pages, not for editing and saving code.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ga0a00601cb55d2781da052e2bf8908be" title="CC1 LO3 - 2">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1301,3999,7132,7105</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;How do you comment out code in JavaScript?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1301">
+              <material>
+                <mattext texttype="text/html">By adding two slashes '//' before the code</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3999">
+              <material>
+                <mattext texttype="text/html">By adding two asterisks '**' before the code</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7132">
+              <material>
+                <mattext texttype="text/html">By adding two underscores '__' before the code</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7105">
+              <material>
+                <mattext texttype="text/html">By adding two pound signs '##' before the code</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1301</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1301_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3999</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3999_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7132</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7132_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7105</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7105_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1301</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="1301_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. You can comment out code in JavaScript by adding two slashes '//' before the code.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="3999_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. That is not the correct syntax for commenting out code in JavaScript.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7132_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. That is not the correct syntax for commenting out code in JavaScript.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7105_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. That is not the correct syntax for commenting out code in JavaScript.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gf434beff70a62e7564cf3f62b92891e9" title="CC1 LO3 - 3">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5276,3674,4705,9906</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;What is the purpose of auto-formatting code in a text editor?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5276">
+              <material>
+                <mattext texttype="text/plain">To make the code more readable and prevent issues later on</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3674">
+              <material>
+                <mattext texttype="text/plain">To change the functionality of the code</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4705">
+              <material>
+                <mattext texttype="text/plain">To make the code run faster</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9906">
+              <material>
+                <mattext texttype="text/plain">None of the given answers are correct</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">5276</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="5276_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3674</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3674_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4705</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4705_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5276</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="5276_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. Auto-formatting code in a text editor is used to make the code more readable and prevent issues later on.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="3674_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Auto-formatting code does not change the functionality of the code.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4705_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Auto-formatting code does not affect the runtime performance of the code.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g86ee849155e620391e92312aff4dea06" title="CC2 LO1 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_answers_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1181,7415,6108,6745</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;span&gt;Select all of the options below that represent primitive data types.&lt;/span&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Multiple">
+          <render_choice>
+            <response_label ident="1181">
+              <material>
+                <mattext texttype="text/plain">Number</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7415">
+              <material>
+                <mattext texttype="text/plain">Class</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6108">
+              <material>
+                <mattext texttype="text/plain">Boolean</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6745">
+              <material>
+                <mattext texttype="text/plain">String</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1181</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1181_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7415</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7415_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6108</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6108_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6745</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6745_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <and>
+              <varequal respident="response1">1181</varequal>
+              <not>
+                <varequal respident="response1">7415</varequal>
+              </not>
+              <varequal respident="response1">6108</varequal>
+              <varequal respident="response1">6745</varequal>
+            </and>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="1181_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. Number is a primitive data type in JavaScript.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7415_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Class is not a primitive data type in JavaScript.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="6108_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. Boolean is a primitive data type in JavaScript.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="6745_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. String is a primitive data type in JavaScript.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ga164b06e518ee39aa883f086a95cf8b1" title="CC2 LO2 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6488,8389,443,8201</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the result of the expression 10 % 3?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6488">
+              <material>
+                <mattext texttype="text/plain">1</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8389">
+              <material>
+                <mattext texttype="text/plain">3</mattext>
+              </material>
+            </response_label>
+            <response_label ident="443">
+              <material>
+                <mattext texttype="text/plain">3.3333333333333335</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8201">
+              <material>
+                <mattext texttype="text/plain">0</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6488</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6488_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8389</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8389_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">443</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="443_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8201</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8201_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6488</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="6488_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. The result of the expression 10 % 3 is 1.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8389_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. That is not the correct result of the expression 10 % 3.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="443_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. That is not the correct result of the expression 10 % 3.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8201_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. That is not the correct result of the expression 10 % 3.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gc2ab7d80a1cab98bec06b64ff08894c3" title="CC2 LO2 - 2">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9761,3191,8950,2269</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the result of the expression 2 ** 3?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9761">
+              <material>
+                <mattext texttype="text/plain">6</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3191">
+              <material>
+                <mattext texttype="text/plain">8</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8950">
+              <material>
+                <mattext texttype="text/plain">10</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2269">
+              <material>
+                <mattext texttype="text/plain">12</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">9761</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="9761_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3191</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3191_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8950</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8950_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2269</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2269_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">3191</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="9761_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The result of the expression 2 ** 3 is 8.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="3191_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. The result of the expression 2 ** 3 is 8.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8950_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. That is not the correct result of the expression 2 ** 3.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="2269_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. That is not the correct result of the expression 2 ** 3.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g0b926436c2b9cde9051a9d966fe6c496" title="CC2 LO2 - 3">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>3111,4743,5081,15</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Which operator is used to find the remainder of a division?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="3111">
+              <material>
+                <mattext texttype="text/html">&lt;img class="equation_image" title="+" src="https://bloomtech.instructure.com/equation_images/%252B?scale=1" alt="LaTeX: +" data-equation-content="+" data-ignore-a11y-check="" loading="lazy"&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4743">
+              <material>
+                <mattext texttype="text/html">&lt;img class="equation_image" title="-" src="https://bloomtech.instructure.com/equation_images/-?scale=1" alt="LaTeX: -" data-equation-content="-" data-ignore-a11y-check="" loading="lazy"&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5081">
+              <material>
+                <mattext texttype="text/html">&lt;img class="equation_image" title="\ast" src="https://bloomtech.instructure.com/equation_images/%255Cast?scale=1" alt="LaTeX: \ast" data-equation-content="\ast" data-ignore-a11y-check="" loading="lazy"&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="15">
+              <material>
+                <mattext texttype="text/plain">%</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3111</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3111_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4743</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4743_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">5081</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="5081_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">15</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="15_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">15</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="3111_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The operator "+" is not used to find the remainder of a division.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4743_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The operator "-" is not used to find the remainder of a division.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="5081_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The operator "*" is not used to find the remainder of a division.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="15_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. The operator "%" is used to find the remainder of a division.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gd510bab12824adc98c1781d30ec4ab9c" title="CC2 LO2 - 4">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1289,8719,2512,3342</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the result of the expression 5 - 6.5?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1289">
+              <material>
+                <mattext texttype="text/plain">-1</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8719">
+              <material>
+                <mattext texttype="text/plain">-1.5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2512">
+              <material>
+                <mattext texttype="text/plain">1</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3342">
+              <material>
+                <mattext texttype="text/plain">1.5</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1289</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1289_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8719</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8719_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2512</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2512_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3342</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3342_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8719</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="1289_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The correct answer is -1.5</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8719_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. The result of the expression 5 - 6.5 is -1.5</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="2512_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The correct answer is -1.5</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="3342_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The correct answer is -1.5</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g6ad6bf9675ec4227f36fedfea03004b1" title="CC2 LO2 - 5">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>5441,1877,3804,1638</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the result of the expression 10 / 3?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="5441">
+              <material>
+                <mattext texttype="text/plain">3</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1877">
+              <material>
+                <mattext texttype="text/plain">3.3333333333333335</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3804">
+              <material>
+                <mattext texttype="text/plain">0.3333333333333333</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1638">
+              <material>
+                <mattext texttype="text/plain">30</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">5441</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="5441_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1877</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1877_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3804</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3804_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1638</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1638_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1877</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="5441_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The correct answer is 3.3333333333333335</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="1877_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. The result of the expression 10 / 3 is 3.3333333333333335</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="3804_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The correct answer is 3.3333333333333335</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="1638_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The correct answer is 3.3333333333333335</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="geae4aa7e5cbd70c452ec4906560a3a4e" title="CC2 LO2 - 6">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2165,4080,4633,1235</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;Which operator is used for exponentiation in JavaScript?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2165">
+              <material>
+                <mattext texttype="text/html">&lt;img class="equation_image" title="\ast" src="https://bloomtech.instructure.com/equation_images/%255Cast?scale=1" alt="LaTeX: \ast" data-equation-content="\ast" data-ignore-a11y-check="" loading="lazy"&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4080">
+              <material>
+                <mattext texttype="text/html">&lt;img class="equation_image" title="\ast\ast" src="https://bloomtech.instructure.com/equation_images/%255Cast%255Cast?scale=1" alt="LaTeX: \ast\ast" data-equation-content="\ast\ast" data-ignore-a11y-check="" loading="lazy"&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4633">
+              <material>
+                <mattext texttype="text/html">&lt;img class="equation_image" title="\wedge" src="https://bloomtech.instructure.com/equation_images/%255Cwedge?scale=1" alt="LaTeX: \wedge" data-equation-content="\wedge" data-ignore-a11y-check="" loading="lazy"&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1235">
+              <material>
+                <mattext texttype="text/plain">%</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2165</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2165_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4080</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4080_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4633</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4633_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1235</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1235_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">4080</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="2165_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The correct answer is **</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4080_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. The operator ** is used for exponentiation in JavaScript</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4633_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The correct answer is **</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="1235_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The correct answer is **</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gbf010fd78891945f49d97fc40a7067f3" title="CC2 LO3 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7641,7471,7185,1389</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the result of "toyota" + "celica"?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7641">
+              <material>
+                <mattext texttype="text/html">"toyota"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7471">
+              <material>
+                <mattext texttype="text/html">"celica"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7185">
+              <material>
+                <mattext texttype="text/html">"toyotacelica"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1389">
+              <material>
+                <mattext texttype="text/html">"toyota celica"</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7641</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7641_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7471</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7471_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7185</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7185_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1389</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1389_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7185</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="7641_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This is not the result of the expression.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7471_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This is not the result of the expression.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7185_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. The result of this expression is "toyotacelica".</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="1389_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This is not the result of the expression.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g0684bf0486e8035dad7fa28db29cb738" title="CC2 LO3 - 2">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2370,7882,1513,6166</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the result of "toyota " + "camry"?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2370">
+              <material>
+                <mattext texttype="text/html">"toyota"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7882">
+              <material>
+                <mattext texttype="text/html">"camry"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1513">
+              <material>
+                <mattext texttype="text/html">"toyota camry"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6166">
+              <material>
+                <mattext texttype="text/html">"toyotacamry"</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2370</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2370_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7882</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7882_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1513</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1513_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6166</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6166_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1513</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="2370_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This is not the result of the expression.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7882_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This is not the result of the expression.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="1513_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. The result of this expression is "toyota camry".</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="6166_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This is not the result of the expression.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g51d86ff2f3e71cc18c026e767fb9e75d" title="CC2 LO3 - 3">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4243,114,8145,4423</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the result of 5 + ""?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4243">
+              <material>
+                <mattext texttype="text/plain">5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="114">
+              <material>
+                <mattext texttype="text/html">""</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8145">
+              <material>
+                <mattext texttype="text/html">"5"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4423">
+              <material>
+                <mattext texttype="text/html">"5 "</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4243</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4243_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">114</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="114_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8145</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8145_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4423</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4423_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8145</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="4243_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This is not the result of the expression.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="114_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This is not the result of the expression.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8145_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. The result of this expression is the string "5".</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4423_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This is not the result of the expression.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g83a116bc6174da29c48ef27f00cc9256" title="CC2 LO3 - 4">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6797,7705,5430,2715</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the result of "toyota" + "celica"?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6797">
+              <material>
+                <mattext texttype="text/html">"toyota"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7705">
+              <material>
+                <mattext texttype="text/html">"celica"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5430">
+              <material>
+                <mattext texttype="text/html">"toyotacelica"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2715">
+              <material>
+                <mattext texttype="text/html">"toyota celica"</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6797</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6797_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7705</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7705_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">5430</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="5430_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2715</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2715_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5430</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="6797_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The result of concatenating "toyota" and "celica" is the string "toyotacelica"</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7705_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The result of concatenating "toyota" and "celica" is the string "toyotacelica"</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="5430_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. The result of concatenating "toyota" and "celica" is the string "toyotacelica"</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="2715_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. There is no space between "toyota" and "celica" in the expression</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g2cee07b409da1a51132424513c98c8af" title="CC2 LO3 - 5">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1140,6044,6653,8009</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the result of "toyota " + "camry"?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1140">
+              <material>
+                <mattext texttype="text/html">"toyota"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6044">
+              <material>
+                <mattext texttype="text/html">"camry"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6653">
+              <material>
+                <mattext texttype="text/html">"toyota camry"</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8009">
+              <material>
+                <mattext texttype="text/html">"toyotacamry"</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1140</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1140_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6044</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6044_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6653</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6653_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8009</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8009_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6653</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="1140_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The result of concatenating "toyota " and "camry" is the string "toyota camry"</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="6044_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The result of concatenating "toyota " and "camry" is the string "toyota camry"</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="6653_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. The result of concatenating "toyota " and "camry" is the string "toyota camry"</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8009_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. There is a space between "toyota " and "camry" in the expression</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g674e17ef6242570c9e7639f452b5f1db" title="CC2 LO3 - 6">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8724,8488,39,1602</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the result of 5 + ""?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8724">
+              <material>
+                <mattext texttype="text/html">' 5'</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8488">
+              <material>
+                <mattext texttype="text/html">' '</mattext>
+              </material>
+            </response_label>
+            <response_label ident="39">
+              <material>
+                <mattext texttype="text/html">'5'</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1602">
+              <material>
+                <mattext texttype="text/html">'5 '</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8724</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8724_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8488</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8488_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">39</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="39_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1602</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1602_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">39</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="8724_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The result of adding 5 to "" is the string "5"</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8488_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The result of adding 5 to "" is the string "5"</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="39_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct. The result of adding 5 to "" is the string "5"</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="1602_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The result of adding 5 to "" is the string "5"</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gec0c5293fa8c3a32561657ad153a80cd" title="CC3 LO1 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4340,1332,9105,3087</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;With the following code:&lt;/p&gt;
+&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;let&lt;/span&gt; someMutableNumber = &lt;span style="border: 0px none #005cc5; color: #005cc5;"&gt;0&lt;/span&gt;;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;what is the correct way to reassign the value of the variable?&lt;/p&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4340">
+              <material>
+                <mattext texttype="text/html">&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;var&lt;/span&gt; someMutableNumber = newValue;&lt;/code&gt;&lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1332">
+              <material>
+                <mattext texttype="text/html">&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;const&lt;/span&gt; someMutableNumber = newValue;&lt;/code&gt;&lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9105">
+              <material>
+                <mattext texttype="text/html">&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;someMutableNumber = newValue;&lt;/code&gt;&lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3087">
+              <material>
+                <mattext texttype="text/html">&lt;pre style="background-image: none;  background-attachment: scroll;   background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal;   font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px;      background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"&gt;&lt;code style="background-image: none;  background-attachment: scroll;   background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal;   font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"&gt;&lt;span style="border: 0px none #d73a49; color: #d73a49;"&gt;let&lt;/span&gt; someMutableNumber = newValue;&lt;/code&gt;&lt;/pre&gt;</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4340</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4340_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1332</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1332_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">9105</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="9105_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3087</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3087_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9105</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="4340_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. Using &lt;code&gt;var&lt;/code&gt; to reassign a variable is not recommended in JavaScript.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="1332_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. Using &lt;code&gt;const&lt;/code&gt; to reassign a variable will cause a TypeError.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="9105_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct! This is the correct way to reassign the value of a variable declared with &lt;code&gt;let&lt;/code&gt;.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="3087_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. This will create a new variable instead of reassigning the existing variable.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g76c05ae2bf4de211885724b7b6f20422" title="CC3 LO1 - 2">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>6089,7762,6491,5787</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What will happen if we try to redeclare a variable that has already been declared with &lt;code&gt;let&lt;/code&gt;?&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="6089">
+              <material>
+                <mattext texttype="text/plain">A new variable will be created with the same name</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7762">
+              <material>
+                <mattext texttype="text/plain">The value of the existing variable will be changed to the new value</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6491">
+              <material>
+                <mattext texttype="text/plain">A syntax error will occur</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5787">
+              <material>
+                <mattext texttype="text/plain">nothing will happen</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6089</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6089_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7762</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7762_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6491</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6491_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">5787</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="5787_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6491</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="6089_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. Redeclaring a variable with &lt;code&gt;let&lt;/code&gt; in the same scope will cause a SyntaxError.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7762_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Redeclaring a variable will not change its value, it will cause a SyntaxError.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="6491_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct! Redeclaring a variable with &lt;code&gt;let&lt;/code&gt; in the same scope will cause a SyntaxError.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="5787_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. Redeclaring a variable with &lt;code&gt;let&lt;/code&gt; in the same scope will cause a SyntaxError.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="ge28c3db87d0af85b890bf86190690062" title="CC3 LO1 - 3">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>4242,2859,6942,4698</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What is the result of the following code:
+const fixedNumber = 5;
+fixedNumber = 9;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="4242">
+              <material>
+                <mattext texttype="text/plain">5</mattext>
+              </material>
+            </response_label>
+            <response_label ident="2859">
+              <material>
+                <mattext texttype="text/plain">9</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6942">
+              <material>
+                <mattext texttype="text/plain">an error</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4698">
+              <material>
+                <mattext texttype="text/plain">undefined</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4242</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4242_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2859</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2859_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6942</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6942_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4698</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4698_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">6942</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="4242_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The value of fixedNumber is reassigned to 9</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="2859_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The reassignment will throw an error.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="6942_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct! Because fixedNumber is a const variable, it cannot be reassigned.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4698_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The reassignment will throw an error.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="gc0aec36c293dcad8db8134b402e6332e" title="CC3 LO1 - 4">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2985,6531,4791,8700</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;What is the main difference between using the &lt;code&gt;let&lt;/code&gt; and &lt;code&gt;const&lt;/code&gt; keywords when declaring a variable in JavaScript?&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2985">
+              <material>
+                <mattext texttype="text/html">Variables declared with &lt;code&gt;let&lt;/code&gt; can be reassigned new values, while variables declared with &lt;code&gt;const&lt;/code&gt; cannot be reassigned.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6531">
+              <material>
+                <mattext texttype="text/html">Variables declared with &lt;code&gt;let&lt;/code&gt; have block scope, while variables declared with &lt;code&gt;const&lt;/code&gt; have function scope.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4791">
+              <material>
+                <mattext texttype="text/html">Variables declared with &lt;code&gt;let&lt;/code&gt; are mutable, while variables declared with &lt;code&gt;const&lt;/code&gt; are immutable.</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8700">
+              <material>
+                <mattext texttype="text/html">Variables declared with &lt;code&gt;let&lt;/code&gt; are not hoisted, while variables declared with &lt;code&gt;const&lt;/code&gt; are hoisted.</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2985</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2985_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6531</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6531_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4791</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4791_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8700</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8700_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2985</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="2985_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct! Variables declared with let can be reassigned new values, while variables declared with const cannot be reassigned.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="6531_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Both let and const have block scope in Javascript.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4791_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Both let and const are mutable in Javascript.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8700_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. Both let and const are hoisted in Javascript.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g28063ad36432751696e7f2998e349bce" title="CC4 LO1 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7538,7402</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What will the following code return?
+&lt;code&gt;(5 === 5) &amp;amp;&amp;amp; (4 &amp;lt; 5)&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7538">
+              <material>
+                <mattext texttype="text/plain">true</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7402">
+              <material>
+                <mattext texttype="text/plain">false</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7538</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7538_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7402</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7402_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7538</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="7538_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct! The code will return true because both conditions are true.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7402_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The code will return true because both conditions are true.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g93003df94abb66c6ed0ad34a56032047" title="CC4 LO1 - 2">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2774,8887</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What will the following code return?
+&lt;code&gt;5 !== "5"&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2774">
+              <material>
+                <mattext texttype="text/plain">true</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8887">
+              <material>
+                <mattext texttype="text/plain">false</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2774</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2774_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8887</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8887_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2774</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="2774_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct! The code will return true because the two values are not equal to each other.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8887_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The code will return true because the two values are not equal to each other.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g31e0386f51c84129cfce438b33f49096" title="CC4 LO1 - 3">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2531,5074</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What will the following code return?
+&lt;code&gt;(1 &amp;lt; 2) &amp;amp;&amp;amp; ('7' === 7)&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2531">
+              <material>
+                <mattext texttype="text/plain">true</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5074">
+              <material>
+                <mattext texttype="text/plain">false</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2531</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2531_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">5074</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="5074_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">5074</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="2531_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The code will return false because the second condition is false.
+("7" is a string and 7 is a number and they are not strictly equal)</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="5074_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Correct! The code will return false because the second condition is false.
+("7" is a string and 7 is a number and they are not strictly equal)</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g3a15797b39e953eb7415840dd937437f" title="CC4 LO2 - 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>1541,1234</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What will the following code return?
+&lt;code&gt;(5 &amp;gt; 3) || (4 === 4)&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="1541">
+              <material>
+                <mattext texttype="text/plain">true</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1234">
+              <material>
+                <mattext texttype="text/plain">false</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1541</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1541_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1234</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1234_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">1541</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="1541_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct! Both expressions evaluate to true, so the overall expression evaluates to true.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="1234_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The first expression (5 &amp;gt; 3) is true and the second expression (4 === 4) is also true, so the overall expression evaluates to true.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g3835588f5af79f89dbd5bea92a5770f7" title="CC4 LO2 - 2">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7597,8350</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;What will the following code return?
+&lt;code&gt;(9 &amp;lt;= 8) &amp;amp;&amp;amp; (6 &amp;gt;= 7)&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7597">
+              <material>
+                <mattext texttype="text/plain">true</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8350">
+              <material>
+                <mattext texttype="text/plain">false</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7597</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7597_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8350</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8350_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8350</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="7597_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">Incorrect. The first expression (9 &amp;lt;= 8) is false and the second expression (6 &amp;gt;= 7) is also false, so the overall expression evaluates to false.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8350_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct! both expressions evaluate to false, so the overall expression evaluates to false.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g608ece33af2ee2f52d6d745c7703f14b" title="CC4 LO2 - 3">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8153,7587</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;What will the following code return? &lt;code&gt;(1 !== 2) || ('3' == '3')&lt;/code&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8153">
+              <material>
+                <mattext texttype="text/plain">true</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7587">
+              <material>
+                <mattext texttype="text/plain">false</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8153</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8153_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7587</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7587_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8153</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="8153_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Correct! The first expression (1 !== 2) is true and the second expression ('3' == 3) is also true, so the overall expression evaluates to true.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7587_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/plain">Incorrect. The first expression (1 !== 2) is true, the second expression ('3' == 3) is true, so the overall expression evaluates to true.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+  </objectbank>
+</questestinterop>

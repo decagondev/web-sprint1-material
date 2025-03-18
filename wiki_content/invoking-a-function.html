@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Invoking a function</title>
+<meta name="identifier" content="g0e8af04329759e70f8aa499dffd056d5"/>
+<meta name="editing_roles" content="teachers"/>
+<meta name="workflow_state" content="active"/>
+</head>
+<body>
+<div class=" border border-trbl" style="background-color: #00808c; color: #ffffff; padding: 2px 10px; border: 1px solid black;">
+    <h3><strong>Overview</strong></h3>
+</div>
+<div class="content-box pad-box-mini border border-rbl">
+    <p><span>So far, we have learned how to write basic functions; however, if you wanted to run the function, it would require one more step. To run a function it needs to be called, better known as "invoking," by stating the name of the function followed by a pair of parentheses, as in </span><code>myFunction()</code><span>. Invoking a function is always done outside the function itself and looks like this:</span></p>
+    <pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"><code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"><span style="border: 0px none #d73a49; color: #d73a49;">function</span> <span style="border: 0px none #6f42c1; color: #6f42c1;">functionName</span>() {<br><span style="border: 0px none #d73a49; color: #d73a49;">console</span>.<span style="border: 0px none #6f42c1; color: #6f42c1;">log</span>(<span style="border: 0px none #032f62; color: #032f62;">"Can you invoke this function?"</span>)<br>}<br><br><span style="border: 0px none #6f42c1; color: #6f42c1;">functionName</span>() <span style="border: 0px none #6a737d; color: #6a737d;">// this will invoke the function above and cause the console to print “Can you invoke this function?”</span></code></pre>
+    <p>There are hidden advantages to requiring a separate line of code to run a function. By requiring a function to be invoked in order to run, we can easily do the following:</p>
+    <ul>
+        <li>We can write multiple functions upfront that we can then invoke later in our program</li>
+        <li>We can write one function and invoke that same function multiple times throughout our program.</li>
+    </ul>
+</div>
+<div class="enhanceable_content tabs">
+    <ul>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-1"><strong>How to Build it</strong></a></li>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-2"><strong>Practice</strong></a></li>
+        <li><a style="text-decoration: none; font-size: 14pt;" href="#topic-3"><strong>Walkthrough</strong></a></li>
+    </ul>
+    <div id="topic-1">
+        <p><span>Let us return to the function we just wrote for our "Discovering Oceana" application. Our function, </span><code>startProcess()</code><span> is designed to print the following message to the console: "Process started". We can now invoke this message as many times as we need to throughout our program. Let us simulate this by adding a few lines of comments to represent distinct processes in our program.</span></p>
+        <pre style="background-image: none; background-attachment: scroll; background-color: #ffffff; border: 1px solid #c7cdd1; clear: none; color: #24292e; cursor: auto; direction: ltr; font-style: normal; font-stretch: normal; font-size: 12px; line-height: 14.4px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px 0px 12px; padding: 9px; text-align: start; text-decoration: none; text-indent: 0px; white-space: pre-wrap; border-collapse: separate; border-spacing: 0px; background-position: 0% 0%; background-repeat: repeat repeat;" data-hljs-language="javascript"><code style="background-image: none; background-attachment: scroll; background-color: rgba(0, 0, 0, 0); border: 0px none #24292e; font-style: normal; font-stretch: normal; font-size: 16px; line-height: 19.200001px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; margin: 0px; padding: 0px; background-position: 0% 0%; background-repeat: repeat repeat;"><span style="border: 0px none #d73a49; color: #d73a49;">function</span> <span style="border: 0px none #6f42c1; color: #6f42c1;">startProcess</span>() {<br>&nbsp;&nbsp;<span style="border: 0px none #d73a49; color: #d73a49;">console</span>.<span style="border: 0px none #6f42c1; color: #6f42c1;">log</span>(<span style="border: 0px none #032f62; color: #032f62;">"Process started"</span>) <span style="border: 0px none #6a737d; color: #6a737d;">// rewriting the function from before</span><br>} <br><br><span style="border: 0px none #6f42c1; color: #6f42c1;">startProcess</span>() <br><span style="border: 0px none #6a737d; color: #6a737d;">// First process block of code</span><br><br><span style="border: 0px none #6f42c1; color: #6f42c1;">startProcess</span>()<br><span style="border: 0px none #6a737d; color: #6a737d;">// Second process block of code</span><br><br><span style="border: 0px none #6f42c1; color: #6f42c1;">startProcess</span>()<br><span style="border: 0px none #6a737d; color: #6a737d;">// Third process block of code</span></code></pre>
+        <p><span>Whenever we invoke the </span><code>startProcess()</code><span> function above, our "Process started" message gets printed to the console. Remember, we initially wrote this function to better track down where any errors might originate. If only two "Process started" messages are printed to the console when we run the program, we could assume that an error occurred during the third process.</span></p>
+    </div>
+    <div id="topic-2">
+        <p>For these practice problems, we will practice a little more with writing some basic functions, and we will also be invoking these functions.</p>
+        <p>If you haven't already, download all Practice Problems for Sprint 1 <a class="inline_disabled" href="https://github.com/bloominstituteoftechnology/web-s01-practice-problems/archive/refs/heads/main.zip" target="_blank">HERE</a>. The setup instructions can be found <a class="inline_disabled" href="https://bloomtech-1.wistia.com/medias/wzc5y598ke" target="_blank">HERE</a>.</p>
+    </div>
+    <div id="topic-3">
+        <p><iframe class="wistia_embed" title="Web S1 M3 CC1 Video 2 - Invoking a function" src="https://fast.wistia.net/embed/iframe/1kueuup46v?seo=false" width="640" height="360" name="wistia_embed" allow="autoplay; fullscreen" loading="lazy"></iframe></p>
+    </div>
+</div>
+<p>&nbsp;</p>
+<hr style="width: 90%; height: 2px; text-align: center; margin: 0 auto; border: none; color: #93005a; background-color: #93005a;">
+<h4 style="text-align: right; padding-top: 5px; padding-right: 5%;"><em><strong>Next: Writing a function expression</strong></em></h4>
+</body>
+</html>
